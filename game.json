@@ -21,11 +21,11 @@
     "name": "TIME SHIFTER",
     "description": "The perfect way to kill some time while challenging your mind and reflexes.",
     "author": "Ikmal Said",
-    "windowWidth": 1280,
-    "windowHeight": 720,
+    "windowWidth": 1056,
+    "windowHeight": 864,
     "latestCompilationDirectory": "",
     "maxFPS": 60,
-    "minFPS": 60,
+    "minFPS": 20,
     "verticalSync": false,
     "platformSpecificAssets": {},
     "loadingScreen": {
@@ -65,12 +65,225 @@
     "currentPlatform": "GDevelop JS platform"
   },
   "resources": {
-    "resources": [],
+    "resources": [
+      {
+        "alwaysLoaded": false,
+        "file": "assets/scroller_bg.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/scroller_bg.png\",\"extension\":\".png\",\"pskl\":{}}",
+        "name": "assets\\scroller_bg.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "disablePreload": false,
+        "file": "levels/title_bg.tmj",
+        "kind": "tilemap",
+        "metadata": "",
+        "name": "levels\\title_bg.tmj",
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "levels/tileset_atlas.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "levels\\tileset_atlas.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "disablePreload": false,
+        "file": "levels/tileset.tsj",
+        "kind": "tileset",
+        "metadata": "",
+        "name": "levels\\tileset.tsj",
+        "userAdded": true
+      },
+      {
+        "disablePreload": false,
+        "file": "levels/title_fg.tmj",
+        "kind": "tilemap",
+        "metadata": "",
+        "name": "levels\\title_fg.tmj",
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/RedButtonIdle.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\RedButtonIdle.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/RedButtonHovered.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\RedButtonHovered.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/RedButtonPressed.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\RedButtonPressed.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "fonts/MontserratRegular.otf",
+        "kind": "font",
+        "metadata": "",
+        "name": "fonts\\MontserratRegular.otf",
+        "userAdded": true
+      },
+      {
+        "file": "fonts/MontserratBold.otf",
+        "kind": "font",
+        "metadata": "",
+        "name": "fonts\\MontserratBold.otf",
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Green Button With Shadow_Hovered.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Green Button With Shadow_Hovered.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/3cfcef451f366e0586d68ae863db979bdeb2ec9453290b236ba3a1fbf19db418_Green Button With Shadow_Hovered.png",
+          "name": "Green Button With Shadow_Hovered.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Green Button With Shadow_Idle.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Green Button With Shadow_Idle.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/63f468aa943eb440db683045192c88a94de99bd6e3aa5fc0afc3d93dd8d39324_Green Button With Shadow_Idle.png",
+          "name": "Green Button With Shadow_Idle.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Green Button With Shadow_Pressed.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Green Button With Shadow_Pressed.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/3c957fd6edd0a38bee1807034ca83d582216e6e2f48058e413979f8b1f504e8b_Green Button With Shadow_Pressed.png",
+          "name": "Green Button With Shadow_Pressed.png"
+        }
+      },
+      {
+        "file": "assets/CantoraOne-Regular.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "CantoraOne-Regular.ttf",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/05b0c1364a92b436b86ca819e66b63480d1bc2fb399f6c0cf8bffbf8199ccc2a_CantoraOne-Regular.ttf",
+          "name": "CantoraOne-Regular.ttf"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/GreenButtonIdle.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\GreenButtonIdle.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/GreenButtonHovered.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\GreenButtonHovered.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/GreenButtonPressed.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\GreenButtonPressed.png",
+        "smoothed": false,
+        "userAdded": true
+      }
+    ],
     "resourceFolders": []
   },
   "objects": [],
   "objectsGroups": [],
-  "variables": [],
+  "variables": [
+    {
+      "name": "top_scorers",
+      "type": "array",
+      "children": [
+        {
+          "folded": true,
+          "type": "string",
+          "value": "ikmalsaid"
+        },
+        {
+          "type": "number",
+          "value": 19201
+        },
+        {
+          "folded": true,
+          "type": "string",
+          "value": "alisa_tt8"
+        },
+        {
+          "type": "number",
+          "value": 18700
+        },
+        {
+          "type": "string",
+          "value": "hertonnye"
+        },
+        {
+          "folded": true,
+          "type": "number",
+          "value": 17500
+        },
+        {
+          "folded": true,
+          "type": "string",
+          "value": "tong_ke_xin"
+        },
+        {
+          "folded": true,
+          "type": "number",
+          "value": 16900
+        },
+        {
+          "type": "string",
+          "value": "sudirman6969"
+        },
+        {
+          "type": "number",
+          "value": 16500
+        }
+      ]
+    }
+  ],
   "layouts": [
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
@@ -78,7 +291,16 @@
     }
   ],
   "externalEvents": [],
-  "eventsFunctionsExtensions": [],
+  "eventsFunctionsExtensions": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/ellipsemovement"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/panelspritebutton"
+    }
+  ],
   "externalLayouts": [],
   "externalSourceFiles": []
 }

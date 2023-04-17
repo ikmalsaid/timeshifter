@@ -1,0 +1,204 @@
+{
+    "Map/SizeTest": {
+        "height": 4300,
+        "width": 2
+    },
+    "activeFile": "title_bg.tmj",
+    "expandedProjectPaths": [
+        "."
+    ],
+    "file.lastUsedOpenFilter": "All Files (*)",
+    "fileStates": {
+        "D:/tcx/Example.tmx": {
+            "scale": 2.671875,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 159.43859649122808,
+                "y": 159.81286549707602
+            }
+        },
+        "D:/tcx/Tiled Tsx/Tiny Top Down Tiles 32x32.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "D:/tcx/test_tiles.tsj": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "level0.tmj": {
+            "scale": 2.031944444444444,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 209.6514012303486,
+                "y": 132.3855092276145
+            }
+        },
+        "level1.tmj": {
+            "scale": 2.96875,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 176,
+                "y": 143.99999999999997
+            }
+        },
+        "level10.tmj": {
+            "scale": 1.5032670454545454,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 176.61532646697538,
+                "y": 144.01965416233583
+            }
+        },
+        "level11.tmj": {
+            "scale": 1.5032670454545454,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 176.61532646697538,
+                "y": 144.01965416233583
+            }
+        },
+        "level12.tmj": {
+            "scale": 1.5032670454545454,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 176.61532646697538,
+                "y": 144.01965416233583
+            }
+        },
+        "level13.tmj": {
+            "scale": 1.5032670454545454,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 176.61532646697538,
+                "y": 144.01965416233583
+            }
+        },
+        "level2.tmj": {
+            "scale": 1.5,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 176.33333333333331,
+                "y": 144.33333333333331
+            }
+        },
+        "level3.tmj": {
+            "scale": 1.5,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 147.66666666666669,
+                "y": 155.33333333333331
+            }
+        },
+        "level4.tmj": {
+            "scale": 1.5032670454545454,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 496.5850892941511,
+                "y": 146.34791646981012
+            }
+        },
+        "level5.tmj": {
+            "scale": 1.5032670454545454,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 496.5850892941511,
+                "y": 146.34791646981012
+            }
+        },
+        "level6.tmj": {
+            "scale": 1.5032670454545454,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 496.5850892941511,
+                "y": 146.34791646981012
+            }
+        },
+        "level8.tmj": {
+            "scale": 1.5032670454545454,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 496.5850892941511,
+                "y": 146.34791646981012
+            }
+        },
+        "level9.tmj": {
+            "scale": 1.5032670454545454,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 176.61532646697538,
+                "y": 144.01965416233583
+            }
+        },
+        "levelxx.tmj": {
+            "scale": 1.5032670454545454,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 176.61532646697538,
+                "y": 58.206557686856286
+            }
+        },
+        "levelxxx.tmj": {
+            "scale": 1.5032670454545454,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 176.61532646697538,
+                "y": 144.01965416233583
+            }
+        },
+        "tileset.tsj": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "title.tmj": {
+            "scale": 2,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 148.75,
+                "y": 167
+            }
+        },
+        "title_bg.tmj": {
+            "scale": 2.96875,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 176,
+                "y": 144.16842105263157
+            }
+        },
+        "title_fg.tmj": {
+            "scale": 2.96875,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 176,
+                "y": 144.16842105263157
+            }
+        }
+    },
+    "last.imagePath": "E:/Personal/Works/ikmalsaid/2023/github/GDevelop-TimeShifter/levels",
+    "map.height": 9,
+    "map.lastUsedFormat": "json",
+    "map.layerDataFormat": null,
+    "map.width": 11,
+    "openFiles": [
+        "title_bg.tmj",
+        "title_fg.tmj"
+    ],
+    "project": "levels.tiled-project",
+    "recentFiles": [
+        "title_fg.tmj",
+        "title_bg.tmj",
+        "title.tmj",
+        "level3.tmj",
+        "tileset.tsj",
+        "level1.tmj",
+        "level2.tmj",
+        "level4.tmj",
+        "level5.tmj",
+        "level6.tmj",
+        "level8.tmj",
+        "level9.tmj"
+    ],
+    "tileset.lastUsedFormat": "json",
+    "tileset.transparentColor": "#008080",
+    "tileset.useTransparentColor": true
+}

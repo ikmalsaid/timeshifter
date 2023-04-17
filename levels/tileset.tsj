@@ -1,0 +1,15 @@
+{ "columns":10,
+ "image":"tileset_atlas.png",
+ "imageheight":320,
+ "imagewidth":320,
+ "margin":0,
+ "name":"tileset",
+ "spacing":0,
+ "tilecount":100,
+ "tiledversion":"1.10.1",
+ "tileheight":32,
+ "tilewidth":32,
+ "transparentcolor":"#008080",
+ "type":"tileset",
+ "version":"1.10"
+}

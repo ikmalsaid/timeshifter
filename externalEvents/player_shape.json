@@ -1,0 +1,388 @@
+{
+  "associatedLayout": "level1",
+  "lastChangeTimeStamp": 0,
+  "name": "player_shape",
+  "events": [
+    {
+      "type": "BuiltinCommonInstructions::Comment",
+      "color": {
+        "b": 109,
+        "g": 230,
+        "r": 255,
+        "textB": 0,
+        "textG": 0,
+        "textR": 0
+      },
+      "comment": "CIRCLE",
+      "comment2": ""
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "VarObjet"
+          },
+          "parameters": [
+            "player",
+            "current_shape",
+            "=",
+            "1"
+          ]
+        },
+        {
+          "type": {
+            "value": "VarObjet"
+          },
+          "parameters": [
+            "player",
+            "current_color",
+            "=",
+            "1"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "SetAnimationName"
+          },
+          "parameters": [
+            "player",
+            "\"rc\""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "VarObjet"
+          },
+          "parameters": [
+            "player",
+            "current_shape",
+            "=",
+            "1"
+          ]
+        },
+        {
+          "type": {
+            "value": "VarObjet"
+          },
+          "parameters": [
+            "player",
+            "current_color",
+            "=",
+            "2"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "SetAnimationName"
+          },
+          "parameters": [
+            "player",
+            "\"gc\""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "VarObjet"
+          },
+          "parameters": [
+            "player",
+            "current_shape",
+            "=",
+            "1"
+          ]
+        },
+        {
+          "type": {
+            "value": "VarObjet"
+          },
+          "parameters": [
+            "player",
+            "current_color",
+            "=",
+            "3"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "SetAnimationName"
+          },
+          "parameters": [
+            "player",
+            "\"bc\""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Comment",
+      "color": {
+        "b": 109,
+        "g": 230,
+        "r": 255,
+        "textB": 0,
+        "textG": 0,
+        "textR": 0
+      },
+      "comment": "SQUARE",
+      "comment2": ""
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "VarObjet"
+          },
+          "parameters": [
+            "player",
+            "current_shape",
+            "=",
+            "2"
+          ]
+        },
+        {
+          "type": {
+            "value": "VarObjet"
+          },
+          "parameters": [
+            "player",
+            "current_color",
+            "=",
+            "1"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "SetAnimationName"
+          },
+          "parameters": [
+            "player",
+            "\"rs\""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "VarObjet"
+          },
+          "parameters": [
+            "player",
+            "current_shape",
+            "=",
+            "2"
+          ]
+        },
+        {
+          "type": {
+            "value": "VarObjet"
+          },
+          "parameters": [
+            "player",
+            "current_color",
+            "=",
+            "2"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "SetAnimationName"
+          },
+          "parameters": [
+            "player",
+            "\"gs\""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "VarObjet"
+          },
+          "parameters": [
+            "player",
+            "current_shape",
+            "=",
+            "2"
+          ]
+        },
+        {
+          "type": {
+            "value": "VarObjet"
+          },
+          "parameters": [
+            "player",
+            "current_color",
+            "=",
+            "3"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "SetAnimationName"
+          },
+          "parameters": [
+            "player",
+            "\"bs\""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Comment",
+      "color": {
+        "b": 109,
+        "g": 230,
+        "r": 255,
+        "textB": 0,
+        "textG": 0,
+        "textR": 0
+      },
+      "comment": "TRIANGLE",
+      "comment2": ""
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "VarObjet"
+          },
+          "parameters": [
+            "player",
+            "current_shape",
+            "=",
+            "3"
+          ]
+        },
+        {
+          "type": {
+            "value": "VarObjet"
+          },
+          "parameters": [
+            "player",
+            "current_color",
+            "=",
+            "1"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "SetAnimationName"
+          },
+          "parameters": [
+            "player",
+            "\"rt\""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "VarObjet"
+          },
+          "parameters": [
+            "player",
+            "current_shape",
+            "=",
+            "3"
+          ]
+        },
+        {
+          "type": {
+            "value": "VarObjet"
+          },
+          "parameters": [
+            "player",
+            "current_color",
+            "=",
+            "2"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "SetAnimationName"
+          },
+          "parameters": [
+            "player",
+            "\"gt\""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "VarObjet"
+          },
+          "parameters": [
+            "player",
+            "current_shape",
+            "=",
+            "3"
+          ]
+        },
+        {
+          "type": {
+            "value": "VarObjet"
+          },
+          "parameters": [
+            "player",
+            "current_color",
+            "=",
+            "3"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "SetAnimationName"
+          },
+          "parameters": [
+            "player",
+            "\"bt\""
+          ]
+        }
+      ]
+    }
+  ]
+}

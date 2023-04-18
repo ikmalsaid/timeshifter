@@ -1,18 +1,18 @@
 { "compressionlevel":-1,
- "height":9,
+ "height":11,
  "infinite":false,
  "layers":[
         {
          "compression":"zlib",
-         "data":"eJx1kMkJAEAIA\/1bhJX4Tv8dLQsKIcRH8GQ8EBEgtcRfSfk0qrEYH8bfuKk3hVkmp728H9ea5tXBrbj3dmKmcpXluHuv\/uCa9QBdXxDq",
+         "data":"eJyLZmBgiCYDu6NhByxi3ECshKaHGwuOgdIgeV4ojazHG81cZiD2QtLDjaYHZq45mhpuPHok0NwNo3WA2A7Kj8FhjweaP2DYEYs96GEEwmZI\/ob5D90ecwbsYYcsp4Ckhw\/NDkccdjuQEOfoGADO6yF2",
          "encoding":"base64",
-         "height":9,
+         "height":11,
          "id":1,
          "name":"Tile Layer 1",
          "opacity":1,
          "type":"tilelayer",
          "visible":true,
-         "width":11,
+         "width":13,
          "x":0,
          "y":0
         }],
@@ -30,5 +30,5 @@
  "tilewidth":32,
  "type":"map",
  "version":"1.10",
- "width":11
+ "width":13
 }

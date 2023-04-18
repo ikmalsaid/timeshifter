@@ -4,7 +4,7 @@
  "layers":[
         {
          "compression":"zlib",
-         "data":"eJzjZmBg4CYB2wKxOxDLQ2mYGDeUb4uk1h1JDboeZDluqByyPmQxZDlkvfgwurvl0cwmZC66m9HNtUUSw+YvWwZMNxDCAEz6DXA=",
+         "data":"eJzjZmBg4CYBOwCxOxA7QmmQmASUBvF1kNS6I6kB0TFofHcktd5o+kA0M5Q2QXODOxEY3d28aGaDsDkec2F8bxzmKiGJMWPxlxeJ4QrCAKpaDck=",
          "encoding":"base64",
          "height":9,
          "id":1,
@@ -26,6 +26,10 @@
         {
          "firstgid":1,
          "source":"tileset.tsj"
+        }, 
+        {
+         "firstgid":192,
+         "source":"tileset_player.tsj"
         }],
  "tilewidth":32,
  "type":"map",

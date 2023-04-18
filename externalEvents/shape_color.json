@@ -1,0 +1,121 @@
+{
+  "associatedLayout": "level1",
+  "lastChangeTimeStamp": 0,
+  "name": "shape_color",
+  "events": [
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "VarObjet"
+          },
+          "parameters": [
+            "player",
+            "current_shape",
+            "=",
+            "1"
+          ]
+        },
+        {
+          "type": {
+            "value": "VarObjet"
+          },
+          "parameters": [
+            "player",
+            "current_color",
+            "=",
+            "1"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "SetAnimationName"
+          },
+          "parameters": [
+            "player",
+            "\"rc\""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "VarObjet"
+          },
+          "parameters": [
+            "player",
+            "current_shape",
+            "=",
+            "1"
+          ]
+        },
+        {
+          "type": {
+            "value": "VarObjet"
+          },
+          "parameters": [
+            "player",
+            "current_color",
+            "=",
+            "2"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "SetAnimationName"
+          },
+          "parameters": [
+            "player",
+            "\"gc\""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "VarObjet"
+          },
+          "parameters": [
+            "player",
+            "current_shape",
+            "=",
+            "1"
+          ]
+        },
+        {
+          "type": {
+            "value": "VarObjet"
+          },
+          "parameters": [
+            "player",
+            "current_color",
+            "=",
+            "3"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "SetAnimationName"
+          },
+          "parameters": [
+            "player",
+            "\"bc\""
+          ]
+        }
+      ]
+    }
+  ]
+}

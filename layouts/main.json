@@ -18,7 +18,7 @@
     "gridColor": 0,
     "gridAlpha": 0.5,
     "snap": false,
-    "zoomFactor": 0.4335774304702394,
+    "zoomFactor": 0.46331118245139985,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -32,7 +32,7 @@
       "name": "scroller_bg",
       "persistentUuid": "12462962-08e0-48bc-8cc0-b0c85ae48778",
       "width": 1164,
-      "x": -51,
+      "x": -1200,
       "y": 672,
       "zOrder": 2,
       "numberProperties": [],
@@ -89,12 +89,12 @@
       "customSize": true,
       "height": 70,
       "layer": "",
-      "name": "red_button",
+      "name": "start",
       "persistentUuid": "526350b0-a8f2-4858-9a1b-c0444b5f647b",
       "width": 625,
-      "x": 215,
+      "x": -700,
       "y": 370,
-      "zOrder": 5,
+      "zOrder": 2,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -104,27 +104,12 @@
       "customSize": true,
       "height": 70,
       "layer": "",
-      "name": "green_button",
-      "persistentUuid": "1aa724bb-88f6-4ad4-926c-8af6a7f5b3e6",
-      "width": 625,
-      "x": 215,
-      "y": 462,
-      "zOrder": 6,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 70,
-      "layer": "",
-      "name": "red_button2",
+      "name": "credits",
       "persistentUuid": "d9bfe399-f0a9-49a5-96c4-11aa20691cd1",
       "width": 625,
-      "x": 215,
+      "x": -700,
       "y": 559,
-      "zOrder": 7,
+      "zOrder": 2,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -134,12 +119,12 @@
       "customSize": true,
       "height": 85,
       "layer": "",
-      "name": "scroller_text2",
+      "name": "title1",
       "persistentUuid": "006d9a45-9118-4dc1-b862-8cf3b8ea5a20",
-      "width": 466,
-      "x": 299,
-      "y": 198,
-      "zOrder": 9,
+      "width": 459,
+      "x": -700,
+      "y": 194,
+      "zOrder": 3,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -149,12 +134,42 @@
       "customSize": false,
       "height": 0,
       "layer": "",
-      "name": "scroller_text3",
+      "name": "title2",
       "persistentUuid": "5f460e52-b7e4-4f88-90a0-83f1b551c0ce",
       "width": 0,
-      "x": 297,
+      "x": 1200,
       "y": 198,
-      "zOrder": 8,
+      "zOrder": 2,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 70,
+      "layer": "",
+      "name": "scores",
+      "persistentUuid": "29416e5f-b891-4937-b101-d0eefd46b3fa",
+      "width": 625,
+      "x": 1200,
+      "y": 462,
+      "zOrder": 2,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "transition",
+      "persistentUuid": "4c3e332e-a2f2-4bd3-b326-c4a34e672301",
+      "width": 0,
+      "x": 1075,
+      "y": 823,
+      "zOrder": 11,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -171,7 +186,12 @@
       "width": 32,
       "variables": [],
       "effects": [],
-      "behaviors": []
+      "behaviors": [
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
+        }
+      ]
     },
     {
       "assetStoreId": "",
@@ -199,7 +219,7 @@
     },
     {
       "assetStoreId": "",
-      "name": "scroller_text2",
+      "name": "title1",
       "tags": "",
       "type": "BBText::BBText",
       "variables": [],
@@ -223,7 +243,7 @@
     },
     {
       "assetStoreId": "",
-      "name": "scroller_text3",
+      "name": "title2",
       "tags": "",
       "type": "BBText::BBText",
       "variables": [],
@@ -253,60 +273,44 @@
       "content": {
         "text": "TIMESHIFTER",
         "opacity": 255,
-        "fontSize": 66,
+        "fontSize": 65,
         "visible": true,
-        "color": "255;255;255",
+        "color": "0;0;0",
         "fontFamily": "fonts\\MontserratBold.otf",
         "align": "center",
         "wordWrap": false
       }
     },
     {
-      "assetStoreId": "",
-      "name": "title_bg",
-      "tags": "",
-      "type": "TileMap::TileMap",
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "content": {
-        "tilemapJsonFile": "levels\\title_bg.tmj",
-        "tilesetJsonFile": "levels\\tileset.tsj",
-        "tilemapAtlasImage": "levels\\tileset_atlas.png",
-        "displayMode": "visible",
-        "layerIndex": 0,
-        "levelIndex": 0,
-        "animationSpeedScale": 1,
-        "animationFps": 0
-      }
-    },
-    {
-      "assetStoreId": "",
-      "name": "title_fg",
-      "tags": "",
-      "type": "TileMap::TileMap",
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "content": {
-        "tilemapJsonFile": "levels\\title_fg.tmj",
-        "tilesetJsonFile": "levels\\tileset.tsj",
-        "tilemapAtlasImage": "levels\\tileset_atlas.png",
-        "displayMode": "visible",
-        "layerIndex": 0,
-        "levelIndex": 0,
-        "animationSpeedScale": 1,
-        "animationFps": 0
-      }
-    },
-    {
       "assetStoreId": "5faf2b0415c271fa6e747283ed36297a95f04d2b6c477a7b011775fa6fb444ee",
-      "name": "red_button",
+      "name": "start",
       "tags": "",
       "type": "PanelSpriteButton::PanelSpriteButton",
-      "variables": [],
+      "variables": [
+        {
+          "name": "pos",
+          "type": "array",
+          "children": [
+            {
+              "folded": true,
+              "type": "number",
+              "value": 215
+            },
+            {
+              "folded": true,
+              "type": "number",
+              "value": 370
+            }
+          ]
+        }
+      ],
       "effects": [],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
+        }
+      ],
       "content": {
         "LeftPadding": 16,
         "RightPadding": 16,
@@ -365,12 +369,86 @@
     },
     {
       "assetStoreId": "5faf2b0415c271fa6e747283ed36297a95f04d2b6c477a7b011775fa6fb444ee",
-      "name": "red_button2",
+      "name": "scores",
       "tags": "",
       "type": "PanelSpriteButton::PanelSpriteButton",
       "variables": [],
       "effects": [],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
+        }
+      ],
+      "content": {
+        "LeftPadding": 16,
+        "RightPadding": 16,
+        "PressedLabelOffsetY": 3,
+        "BottomPadding": 32,
+        "TopPadding": 32,
+        "HoveredFadeOutDuration": 0.25
+      },
+      "childrenContent": {
+        "Hovered": {
+          "bottomMargin": 16,
+          "height": 69,
+          "leftMargin": 16,
+          "rightMargin": 16,
+          "texture": "assets\\RedButtonHovered.png",
+          "tiled": true,
+          "topMargin": 16,
+          "width": 192
+        },
+        "Idle": {
+          "bottomMargin": 16,
+          "height": 69,
+          "leftMargin": 16,
+          "rightMargin": 16,
+          "texture": "assets\\RedButtonIdle.png",
+          "tiled": true,
+          "topMargin": 16,
+          "width": 192
+        },
+        "Label": {
+          "bold": true,
+          "italic": false,
+          "smoothed": true,
+          "underlined": false,
+          "string": "High Scores",
+          "font": "fonts\\MontserratBold.otf",
+          "textAlignment": "center",
+          "characterSize": 32,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          }
+        },
+        "Pressed": {
+          "bottomMargin": 16,
+          "height": 69,
+          "leftMargin": 16,
+          "rightMargin": 16,
+          "texture": "assets\\RedButtonPressed.png",
+          "tiled": true,
+          "topMargin": 16,
+          "width": 192
+        }
+      }
+    },
+    {
+      "assetStoreId": "5faf2b0415c271fa6e747283ed36297a95f04d2b6c477a7b011775fa6fb444ee",
+      "name": "credits",
+      "tags": "",
+      "type": "PanelSpriteButton::PanelSpriteButton",
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
+        }
+      ],
       "content": {
         "LeftPadding": 16,
         "RightPadding": 16,
@@ -494,81 +572,18 @@
   ],
   "events": [
     {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "BuiltinCommonInstructions::Once"
-          },
-          "parameters": []
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "AddForceXY"
-          },
-          "parameters": [
-            "scroller_text",
-            "-100",
-            "0",
-            "1"
-          ]
-        },
-        {
-          "type": {
-            "value": "BBText::SetWrappingWidth"
-          },
-          "parameters": [
-            "scroller_text",
-            "Tween",
-            "35000"
-          ]
-        }
-      ]
+      "type": "BuiltinCommonInstructions::Link",
+      "include": {
+        "includeConfig": 0
+      },
+      "target": "main_actions"
     },
     {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [],
-      "actions": [
-        {
-          "type": {
-            "value": "BBText::SetBBText"
-          },
-          "parameters": [
-            "scroller_text",
-            "=",
-            "\"Welcome To TIMESHIFTER --- Made by Ikmal Said for the GameDev.js Jam 2023 --- Golden Medallist:  \" + GlobalVariableString(top_scorers[0]) + \" - \" + GlobalVariableString(top_scorers[1]) + \" --- Silver Medallist: \" +  GlobalVariableString(top_scorers[2]) + \" - \" + GlobalVariableString(top_scorers[3]) + \" --- Bronze Medallist: \" + GlobalVariableString(top_scorers[4]) + \" - \" + GlobalVariableString(top_scorers[5])"
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "PosX"
-          },
-          "parameters": [
-            "scroller_text",
-            "<=",
-            "-(scroller_text.Width())"
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "MettreX"
-          },
-          "parameters": [
-            "scroller_text",
-            "=",
-            "1200"
-          ]
-        }
-      ]
+      "type": "BuiltinCommonInstructions::Link",
+      "include": {
+        "includeConfig": 0
+      },
+      "target": "main_scroller"
     }
   ],
   "layers": [
@@ -593,12 +608,27 @@
         }
       ],
       "effects": []
+    },
+    {
+      "ambientLightColorB": 8586216,
+      "ambientLightColorG": 6069792,
+      "ambientLightColorR": 8557840,
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "name": "blackscreen",
+      "visibility": true,
+      "cameras": [],
+      "effects": []
     }
   ],
   "behaviorsSharedData": [
     {
       "name": "EllipseMovement",
       "type": "EllipseMovement::EllipseMovement"
+    },
+    {
+      "name": "FlashTransitionPainter",
+      "type": "FlashTransitionPainter::FlashTransitionPainter"
     },
     {
       "name": "Tween",

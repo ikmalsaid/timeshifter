@@ -1,0 +1,338 @@
+{
+  "b": 50,
+  "disableInputWhenNotFocused": true,
+  "mangledName": "credits",
+  "name": "credits",
+  "r": 50,
+  "standardSortMethod": true,
+  "stopSoundsOnStartup": true,
+  "title": "",
+  "v": 50,
+  "uiSettings": {
+    "grid": false,
+    "gridType": "rectangular",
+    "gridWidth": 32,
+    "gridHeight": 32,
+    "gridOffsetX": 0,
+    "gridOffsetY": 0,
+    "gridColor": 0,
+    "gridAlpha": 0.5,
+    "snap": false,
+    "zoomFactor": 0.4335774304702394,
+    "windowMask": false
+  },
+  "objectsGroups": [],
+  "variables": [],
+  "instances": [
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 864,
+      "layer": "",
+      "name": "title_bg",
+      "persistentUuid": "1392aab9-617c-47c0-9ae8-b13e36c364b9",
+      "width": 1056,
+      "x": 0,
+      "y": 0,
+      "zOrder": 1,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 864,
+      "layer": "",
+      "name": "title_fg",
+      "persistentUuid": "a6ccdb80-5988-4465-a7fa-d67c8c765f5d",
+      "width": 1056,
+      "x": 0,
+      "y": 0,
+      "zOrder": 4,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 70,
+      "layer": "",
+      "name": "back",
+      "persistentUuid": "d9bfe399-f0a9-49a5-96c4-11aa20691cd1",
+      "width": 625,
+      "x": 215,
+      "y": 900,
+      "zOrder": 2,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "credits_text",
+      "persistentUuid": "3a19e5c4-9a4a-4417-917b-6b47d09b9a9d",
+      "width": 0,
+      "x": -750,
+      "y": 155,
+      "zOrder": 2,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 444,
+      "layer": "",
+      "name": "credits_text2",
+      "persistentUuid": "b49417af-9fdf-4e7d-99d5-487a19398a69",
+      "width": 779,
+      "x": 1200,
+      "y": 153,
+      "zOrder": 3,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "transition",
+      "persistentUuid": "d7bd6846-6efc-4d90-82b5-20a6a03abbac",
+      "width": 0,
+      "x": 1072,
+      "y": 815,
+      "zOrder": 10,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    }
+  ],
+  "objects": [
+    {
+      "assetStoreId": "",
+      "name": "credits_text",
+      "tags": "",
+      "type": "BBText::BBText",
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "EllipseMovement",
+          "type": "EllipseMovement::EllipseMovement",
+          "RadiusX": 4,
+          "RadiusY": 3,
+          "LoopDuration": 2,
+          "InitialTurningLeft": false,
+          "InitialDirectionAngle": 0,
+          "ShouldRotate": false,
+          "RotationOffset": 0,
+          "CenterX": 0,
+          "CenterY": 0,
+          "MovementAngle": 0,
+          "OldX": 0,
+          "OldY": 0
+        },
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
+        }
+      ],
+      "content": {
+        "text": "TIMESHIFTER\nGame Version 0.0.1\nEngine Build 160\n\nMade by Ikmal Said\nfor the Gamedev.js Jam 2023\n\nThank you for your support!",
+        "opacity": 255,
+        "fontSize": 48,
+        "visible": true,
+        "color": "0;0;0",
+        "fontFamily": "fonts\\MontserratBold.otf",
+        "align": "center",
+        "wordWrap": false
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "credits_text2",
+      "tags": "",
+      "type": "BBText::BBText",
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
+        }
+      ],
+      "content": {
+        "text": "TIMESHIFTER\nGame Version 0.0.1\nEngine Build 160\n\nMade by Ikmal Said\nfor the Gamedev.js Jam 2023\n\nThank you for your support!",
+        "opacity": 255,
+        "fontSize": 48,
+        "visible": true,
+        "color": "255;0;0",
+        "fontFamily": "fonts\\MontserratBold.otf",
+        "align": "center",
+        "wordWrap": false
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "title_bg",
+      "tags": "",
+      "type": "TileMap::TileMap",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "tilemapJsonFile": "levels\\title_bg.tmj",
+        "tilesetJsonFile": "levels\\tileset.tsj",
+        "tilemapAtlasImage": "levels\\tileset_atlas.png",
+        "displayMode": "visible",
+        "layerIndex": 0,
+        "levelIndex": 0,
+        "animationSpeedScale": 1,
+        "animationFps": 0
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "title_fg",
+      "tags": "",
+      "type": "TileMap::TileMap",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "tilemapJsonFile": "levels\\title_fg.tmj",
+        "tilesetJsonFile": "levels\\tileset.tsj",
+        "tilemapAtlasImage": "levels\\tileset_atlas.png",
+        "displayMode": "visible",
+        "layerIndex": 0,
+        "levelIndex": 0,
+        "animationSpeedScale": 1,
+        "animationFps": 0
+      }
+    },
+    {
+      "assetStoreId": "5faf2b0415c271fa6e747283ed36297a95f04d2b6c477a7b011775fa6fb444ee",
+      "name": "back",
+      "tags": "",
+      "type": "PanelSpriteButton::PanelSpriteButton",
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
+        }
+      ],
+      "content": {
+        "LeftPadding": 16,
+        "RightPadding": 16,
+        "PressedLabelOffsetY": 3,
+        "BottomPadding": 32,
+        "TopPadding": 32,
+        "HoveredFadeOutDuration": 0.25
+      },
+      "childrenContent": {
+        "Hovered": {
+          "bottomMargin": 16,
+          "height": 69,
+          "leftMargin": 16,
+          "rightMargin": 16,
+          "texture": "assets\\RedButtonHovered.png",
+          "tiled": true,
+          "topMargin": 16,
+          "width": 192
+        },
+        "Idle": {
+          "bottomMargin": 16,
+          "height": 69,
+          "leftMargin": 16,
+          "rightMargin": 16,
+          "texture": "assets\\RedButtonIdle.png",
+          "tiled": true,
+          "topMargin": 16,
+          "width": 192
+        },
+        "Label": {
+          "bold": true,
+          "italic": false,
+          "smoothed": true,
+          "underlined": false,
+          "string": "< Back",
+          "font": "fonts\\MontserratBold.otf",
+          "textAlignment": "center",
+          "characterSize": 32,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          }
+        },
+        "Pressed": {
+          "bottomMargin": 16,
+          "height": 69,
+          "leftMargin": 16,
+          "rightMargin": 16,
+          "texture": "assets\\RedButtonPressed.png",
+          "tiled": true,
+          "topMargin": 16,
+          "width": 192
+        }
+      }
+    }
+  ],
+  "events": [
+    {
+      "type": "BuiltinCommonInstructions::Link",
+      "include": {
+        "includeConfig": 0
+      },
+      "target": "credits_actions"
+    }
+  ],
+  "layers": [
+    {
+      "ambientLightColorB": 0,
+      "ambientLightColorG": 8042920,
+      "ambientLightColorR": 16,
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "name": "",
+      "visibility": true,
+      "cameras": [
+        {
+          "defaultSize": true,
+          "defaultViewport": true,
+          "height": 0,
+          "viewportBottom": 1,
+          "viewportLeft": 0,
+          "viewportRight": 1,
+          "viewportTop": 0,
+          "width": 0
+        }
+      ],
+      "effects": []
+    }
+  ],
+  "behaviorsSharedData": [
+    {
+      "name": "EllipseMovement",
+      "type": "EllipseMovement::EllipseMovement"
+    },
+    {
+      "name": "FlashTransitionPainter",
+      "type": "FlashTransitionPainter::FlashTransitionPainter"
+    },
+    {
+      "name": "Tween",
+      "type": "Tween::TweenBehavior"
+    }
+  ]
+}

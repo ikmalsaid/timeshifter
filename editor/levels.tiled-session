@@ -1,9 +1,13 @@
 {
-    "activeFile": "level13.tmj",
+    "Map/SizeTest": {
+        "height": 4300,
+        "width": 2
+    },
+    "activeFile": "level1.tmj",
     "expandedProjectPaths": [
-        "templates",
         "."
     ],
+    "file.lastUsedOpenFilter": "All Files (*)",
     "fileStates": {
         "D:/tcx/Example.tmx": {
             "scale": 2.671875,
@@ -62,11 +66,11 @@
             }
         },
         "level13.tmj": {
-            "scale": 1.3975961538461539,
+            "scale": 1.5032670454545454,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 208.2146542827657,
-                "y": 176.01651186790508
+                "x": 176.61532646697538,
+                "y": 144.01965416233583
             }
         },
         "level2.tmj": {
@@ -184,26 +188,36 @@
             }
         }
     },
+    "last.externalTilesetPath": "E:/Personal/Works/ikmalsaid/2023/github/GDevelop-TimeShifter/levels",
+    "last.imagePath": "E:/Personal/Works/ikmalsaid/2023/github/GDevelop-TimeShifter/levels",
+    "last.objectTemplatePath": "E:/Personal/Works/ikmalsaid/2023/github/GDevelop-TimeShifter/levels/templates",
+    "map.height": 9,
+    "map.lastUsedFormat": "json",
+    "map.layerDataFormat": null,
+    "map.width": 11,
     "openFiles": [
-        "level8.tmj",
-        "level9.tmj",
-        "level10.tmj",
-        "level11.tmj",
-        "level12.tmj",
-        "level13.tmj"
+        "level1.tmj",
+        "level2.tmj",
+        "level3.tmj",
+        "tileset.tsj"
     ],
+    "project": "levels.tiled-project",
     "recentFiles": [
-        "level8.tmj",
-        "level9.tmj",
-        "level10.tmj",
-        "level11.tmj",
-        "level12.tmj",
-        "level13.tmj",
         "level7.tmj",
         "level6.tmj",
         "level5.tmj",
         "level4.tmj",
         "level3.tmj",
-        "level2.tmj"
-    ]
+        "level2.tmj",
+        "level1.tmj",
+        "level10.tmj",
+        "tileset.tsj",
+        "tileset_player.tsj",
+        "title_fg.tmj",
+        "title_bg.tmj"
+    ],
+    "tileset.lastUsedFilter": "JSON tileset files (*.tsj *.json)",
+    "tileset.lastUsedFormat": "json",
+    "tileset.transparentColor": "#008080",
+    "tileset.useTransparentColor": true
 }

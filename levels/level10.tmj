@@ -1,18 +1,18 @@
 { "compressionlevel":-1,
- "height":9,
+ "height":11,
  "infinite":false,
  "layers":[
         {
          "compression":"zlib",
-         "data":"eJx1kMEJADAIA\/07hJPk7f4btYUW5EgfQdHkBBURtdVQ3lqYHQke7vt6XLbg6zF7OceV4U4O2VQjN\/nCbYH3qxn+VwXu7NPcefsFcQ8Qwg==",
+         "data":"eJydkb0OgCAMhImODczOzs66ytQEHwHf\/zksSUkuF1wYvjSUO\/pDDSHUCXbjMZQQjxFy3SNOIS16hTy3cQ00K+nREyFffuqc5NmMPOhDfE4BeJ6uRT\/WS+Bp58M1id5\/PWaqswx6Ut+Bwn42qqMwZ9+7+E4F7mf+v\/EBFisgiA==",
          "encoding":"base64",
-         "height":9,
+         "height":11,
          "id":1,
          "name":"Tile Layer 1",
          "opacity":1,
          "type":"tilelayer",
          "visible":true,
-         "width":11,
+         "width":13,
          "x":0,
          "y":0
         }],
@@ -30,5 +30,5 @@
  "tilewidth":32,
  "type":"map",
  "version":"1.10",
- "width":11
+ "width":13
 }

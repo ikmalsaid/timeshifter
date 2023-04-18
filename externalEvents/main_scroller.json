@@ -1,0 +1,82 @@
+{
+  "associatedLayout": "main",
+  "lastChangeTimeStamp": 0,
+  "name": "main_scroller",
+  "events": [
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Wait"
+          },
+          "parameters": [
+            "1.5"
+          ]
+        },
+        {
+          "type": {
+            "value": "AddForceXY"
+          },
+          "parameters": [
+            "scroller_text",
+            "-100",
+            "0",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": [
+        {
+          "type": {
+            "value": "BBText::SetBBText"
+          },
+          "parameters": [
+            "scroller_text",
+            "=",
+            "\"Welcome To TIMESHIFTER --- Made by Ikmal Said for the GameDev.js Jam 2023 --- Golden Medallist:  \" + GlobalVariableString(top_scorers[0]) + \" - \" + GlobalVariableString(top_scorers[1]) + \" --- Silver Medallist: \" +  GlobalVariableString(top_scorers[2]) + \" - \" + GlobalVariableString(top_scorers[3]) + \" --- Bronze Medallist: \" + GlobalVariableString(top_scorers[4]) + \" - \" + GlobalVariableString(top_scorers[5])"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "PosX"
+          },
+          "parameters": [
+            "scroller_text",
+            "<=",
+            "-(scroller_text.Width())"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "MettreX"
+          },
+          "parameters": [
+            "scroller_text",
+            "=",
+            "1200"
+          ]
+        }
+      ]
+    }
+  ]
+}

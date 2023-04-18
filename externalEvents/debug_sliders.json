@@ -1,0 +1,60 @@
+{
+  "associatedLayout": "levels",
+  "lastChangeTimeStamp": 0,
+  "name": "debug_sliders",
+  "events": [
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": [
+        {
+          "type": {
+            "value": "ModVarObjet"
+          },
+          "parameters": [
+            "collision",
+            "current_level",
+            "=",
+            "RoundSlider3.Value()"
+          ]
+        }
+      ]
+    },
+    {
+      "disabled": true,
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": [
+        {
+          "type": {
+            "value": "ModVarObjet"
+          },
+          "parameters": [
+            "player",
+            "current_shape",
+            "=",
+            "RoundSlider2.Value()"
+          ]
+        }
+      ]
+    },
+    {
+      "disabled": true,
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": [
+        {
+          "type": {
+            "value": "ModVarObjet"
+          },
+          "parameters": [
+            "player",
+            "current_color",
+            "=",
+            "RoundSlider.Value()"
+          ]
+        }
+      ]
+    }
+  ]
+}

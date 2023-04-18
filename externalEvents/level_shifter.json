@@ -1,0 +1,475 @@
+{
+  "associatedLayout": "levels",
+  "lastChangeTimeStamp": 0,
+  "name": "level_shifter",
+  "events": [
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "VarObjet"
+          },
+          "parameters": [
+            "collision",
+            "current_level",
+            "=",
+            "1"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "TileMap::CollisionMask::SetTilemapJsonFile"
+          },
+          "parameters": [
+            "collision",
+            "levels\\level1.json"
+          ]
+        },
+        {
+          "type": {
+            "value": "TileMap::SetTilemapJsonFile"
+          },
+          "parameters": [
+            "level_map",
+            "levels\\level1.json"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "VarObjet"
+          },
+          "parameters": [
+            "collision",
+            "current_level",
+            "=",
+            "2"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "TileMap::CollisionMask::SetTilemapJsonFile"
+          },
+          "parameters": [
+            "collision",
+            "levels\\level2.json"
+          ]
+        },
+        {
+          "type": {
+            "value": "TileMap::SetTilemapJsonFile"
+          },
+          "parameters": [
+            "level_map",
+            "levels\\level2.json"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "VarObjet"
+          },
+          "parameters": [
+            "collision",
+            "current_level",
+            "=",
+            "3"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "TileMap::CollisionMask::SetTilemapJsonFile"
+          },
+          "parameters": [
+            "collision",
+            "levels\\level3.json"
+          ]
+        },
+        {
+          "type": {
+            "value": "TileMap::SetTilemapJsonFile"
+          },
+          "parameters": [
+            "level_map",
+            "levels\\level3.json"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "VarObjet"
+          },
+          "parameters": [
+            "collision",
+            "current_level",
+            "=",
+            "4"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "TileMap::CollisionMask::SetTilemapJsonFile"
+          },
+          "parameters": [
+            "collision",
+            "levels\\level4.json"
+          ]
+        },
+        {
+          "type": {
+            "value": "TileMap::SetTilemapJsonFile"
+          },
+          "parameters": [
+            "level_map",
+            "levels\\level4.json"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "VarObjet"
+          },
+          "parameters": [
+            "collision",
+            "current_level",
+            "=",
+            "5"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "TileMap::CollisionMask::SetTilemapJsonFile"
+          },
+          "parameters": [
+            "collision",
+            "levels\\level5.json"
+          ]
+        },
+        {
+          "type": {
+            "value": "TileMap::SetTilemapJsonFile"
+          },
+          "parameters": [
+            "level_map",
+            "levels\\level5.json"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "VarObjet"
+          },
+          "parameters": [
+            "collision",
+            "current_level",
+            "=",
+            "6"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "TileMap::CollisionMask::SetTilemapJsonFile"
+          },
+          "parameters": [
+            "collision",
+            "levels\\level6.json"
+          ]
+        },
+        {
+          "type": {
+            "value": "TileMap::SetTilemapJsonFile"
+          },
+          "parameters": [
+            "level_map",
+            "levels\\level6.json"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "VarObjet"
+          },
+          "parameters": [
+            "collision",
+            "current_level",
+            "=",
+            "7"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "TileMap::CollisionMask::SetTilemapJsonFile"
+          },
+          "parameters": [
+            "collision",
+            "levels\\level7.json"
+          ]
+        },
+        {
+          "type": {
+            "value": "TileMap::SetTilemapJsonFile"
+          },
+          "parameters": [
+            "level_map",
+            "levels\\level7.json"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "VarObjet"
+          },
+          "parameters": [
+            "collision",
+            "current_level",
+            "=",
+            "8"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "TileMap::CollisionMask::SetTilemapJsonFile"
+          },
+          "parameters": [
+            "collision",
+            "levels\\level8.json"
+          ]
+        },
+        {
+          "type": {
+            "value": "TileMap::SetTilemapJsonFile"
+          },
+          "parameters": [
+            "level_map",
+            "levels\\level8.json"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "VarObjet"
+          },
+          "parameters": [
+            "collision",
+            "current_level",
+            "=",
+            "9"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "TileMap::CollisionMask::SetTilemapJsonFile"
+          },
+          "parameters": [
+            "collision",
+            "levels\\level9.json"
+          ]
+        },
+        {
+          "type": {
+            "value": "TileMap::SetTilemapJsonFile"
+          },
+          "parameters": [
+            "level_map",
+            "levels\\level9.json"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "VarObjet"
+          },
+          "parameters": [
+            "collision",
+            "current_level",
+            "=",
+            "10"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "TileMap::CollisionMask::SetTilemapJsonFile"
+          },
+          "parameters": [
+            "collision",
+            "levels\\level10.json"
+          ]
+        },
+        {
+          "type": {
+            "value": "TileMap::SetTilemapJsonFile"
+          },
+          "parameters": [
+            "level_map",
+            "levels\\level10.json"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "VarObjet"
+          },
+          "parameters": [
+            "collision",
+            "current_level",
+            "=",
+            "11"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "TileMap::CollisionMask::SetTilemapJsonFile"
+          },
+          "parameters": [
+            "collision",
+            "levels\\level11.json"
+          ]
+        },
+        {
+          "type": {
+            "value": "TileMap::SetTilemapJsonFile"
+          },
+          "parameters": [
+            "level_map",
+            "levels\\level11.json"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "VarObjet"
+          },
+          "parameters": [
+            "collision",
+            "current_level",
+            "=",
+            "12"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "TileMap::CollisionMask::SetTilemapJsonFile"
+          },
+          "parameters": [
+            "collision",
+            "levels\\level12.json"
+          ]
+        },
+        {
+          "type": {
+            "value": "TileMap::SetTilemapJsonFile"
+          },
+          "parameters": [
+            "level_map",
+            "levels\\level12.json"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "VarObjet"
+          },
+          "parameters": [
+            "collision",
+            "current_level",
+            "=",
+            "13"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "TileMap::CollisionMask::SetTilemapJsonFile"
+          },
+          "parameters": [
+            "collision",
+            "levels\\level13.json"
+          ]
+        },
+        {
+          "type": {
+            "value": "TileMap::SetTilemapJsonFile"
+          },
+          "parameters": [
+            "level_map",
+            "levels\\level13.json"
+          ]
+        }
+      ]
+    }
+  ]
+}

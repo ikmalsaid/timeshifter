@@ -1,209 +1,114 @@
 {
-    "activeFile": "level13.tmj",
+    "activeFile": "level3.json",
     "expandedProjectPaths": [
         "templates",
         "."
     ],
+    "file.lastUsedOpenFilter": "All Files (*)",
     "fileStates": {
-        "D:/tcx/Example.tmx": {
-            "scale": 2.671875,
-            "selectedLayer": 0,
-            "viewCenter": {
-                "x": 159.43859649122808,
-                "y": 159.81286549707602
-            }
-        },
-        "D:/tcx/Tiled Tsx/Tiny Top Down Tiles 32x32.tsx": {
-            "scaleInDock": 1,
-            "scaleInEditor": 1
-        },
-        "D:/tcx/test_tiles.tsj": {
-            "scaleInDock": 1,
-            "scaleInEditor": 1
-        },
-        "level0.tmj": {
-            "scale": 2.031944444444444,
-            "selectedLayer": 0,
-            "viewCenter": {
-                "x": 209.6514012303486,
-                "y": 132.3855092276145
-            }
-        },
         "level1.tmj": {
-            "scale": 1.63,
+            "scale": 2.42,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 185.2760736196319,
-                "y": 176.07361963190186
+                "x": 238.63636363636365,
+                "y": 183.05785123966942
             }
         },
         "level10.tmj": {
-            "scale": 1.6517045454545454,
+            "scale": 2.4289772727272725,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 176.18163054695566,
-                "y": 144.09356725146202
-            }
-        },
-        "level11.tmj": {
-            "scale": 1.3975961538461539,
-            "selectedLayer": 0,
-            "viewCenter": {
-                "x": 208.2146542827657,
-                "y": 176.01651186790508
+                "x": 207.2888888888889,
+                "y": 175.38245614035085
             }
         },
         "level12.tmj": {
-            "scale": 1.3975961538461539,
+            "scale": 2.4289772727272725,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 208.2146542827657,
-                "y": 176.01651186790508
+                "x": 207.2888888888889,
+                "y": 175.38245614035085
             }
         },
-        "level13.tmj": {
-            "scale": 1.3975961538461539,
+        "level3.json": {
+            "scale": 2.96875,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 208.2146542827657,
-                "y": 176.01651186790508
-            }
-        },
-        "level2.tmj": {
-            "scale": 1.4661057692307693,
-            "selectedLayer": 0,
-            "viewCenter": {
-                "x": 208.03410395146747,
-                "y": 176.65846860141005
+                "x": 175.99999999999997,
+                "y": 54.90526315789472
             }
         },
         "level3.tmj": {
-            "scale": 1.5,
+            "scale": 2.96875,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 173.33333333333331,
-                "y": 141.99999999999997
+                "x": 174.9894736842105,
+                "y": 107.78947368421052
             }
         },
         "level4.tmj": {
-            "scale": 1.4661057692307693,
+            "scale": 1.6624999999999999,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 208.03410395146747,
-                "y": 176.65846860141005
+                "x": 206.91729323308272,
+                "y": 260.4511278195489
             }
         },
         "level5.tmj": {
-            "scale": 1.5,
+            "scale": 2.4289772727272725,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 218.66666666666666,
-                "y": 171.99999999999997
+                "x": 207.0830409356725,
+                "y": 175.38245614035085
             }
         },
         "level6.tmj": {
-            "scale": 1.4661057692307693,
+            "scale": 2.4289772727272725,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 205.64682734874572,
-                "y": 176.65846860141005
-            }
-        },
-        "level7.tmj": {
-            "scale": 1.4501201923076923,
-            "selectedLayer": 0,
-            "viewCenter": {
-                "x": 208.6033982594281,
-                "y": 176.53709075839205
-            }
-        },
-        "level8.tmj": {
-            "scale": 1.4501201923076923,
-            "selectedLayer": 0,
-            "viewCenter": {
-                "x": 208.6033982594281,
-                "y": 176.53709075839205
+                "x": 207.2888888888889,
+                "y": 175.38245614035085
             }
         },
         "level9.tmj": {
-            "scale": 1.4501201923076923,
+            "scale": 2.4289772727272725,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 199.98342312474102,
-                "y": 175.84749274761708
-            }
-        },
-        "levelxx.tmj": {
-            "scale": 1.5032670454545454,
-            "selectedLayer": 0,
-            "viewCenter": {
-                "x": 176.61532646697538,
-                "y": 58.206557686856286
-            }
-        },
-        "levelxxx.tmj": {
-            "scale": 1.5032670454545454,
-            "selectedLayer": 0,
-            "viewCenter": {
-                "x": 176.61532646697538,
-                "y": 144.01965416233583
+                "x": 467.480701754386,
+                "y": 175.38245614035085
             }
         },
         "tileset.tsj": {
-            "dynamicWrapping": false,
             "scaleInDock": 1,
-            "scaleInEditor": 2
+            "scaleInEditor": 1
         },
         "tileset_player.tsj": {
-            "dynamicWrapping": true,
-            "scaleInDock": 1,
-            "scaleInEditor": 3
-        },
-        "title.tmj": {
-            "scale": 2,
-            "selectedLayer": 0,
-            "viewCenter": {
-                "x": 148.75,
-                "y": 167
-            }
-        },
-        "title_bg.tmj": {
-            "scale": 2.96875,
-            "selectedLayer": 0,
-            "viewCenter": {
-                "x": 175.32631578947368,
-                "y": 143.1578947368421
-            }
-        },
-        "title_fg.tmj": {
-            "scale": 2.96875,
-            "selectedLayer": 0,
-            "viewCenter": {
-                "x": 175.66315789473686,
-                "y": 143.8315789473684
-            }
+            "scaleInDock": 1
         }
     },
+    "map.lastUsedFormat": "json",
     "openFiles": [
-        "level8.tmj",
-        "level9.tmj",
-        "level10.tmj",
-        "level11.tmj",
+        "tileset.tsj",
+        "level1.tmj",
         "level12.tmj",
-        "level13.tmj"
-    ],
-    "recentFiles": [
-        "level8.tmj",
-        "level9.tmj",
         "level10.tmj",
-        "level11.tmj",
-        "level12.tmj",
-        "level13.tmj",
-        "level7.tmj",
         "level6.tmj",
+        "level3.json",
+        "level4.tmj",
+        "level5.tmj",
+        "level9.tmj"
+    ],
+    "project": "levels.tiled-project",
+    "recentFiles": [
+        "tileset.tsj",
+        "level1.tmj",
+        "level12.tmj",
+        "level10.tmj",
+        "level6.tmj",
+        "level9.tmj",
         "level5.tmj",
         "level4.tmj",
-        "level3.tmj",
-        "level2.tmj"
+        "level3.json",
+        "level3.tmj"
     ]
 }

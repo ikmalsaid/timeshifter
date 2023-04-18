@@ -1,8 +1,8 @@
 {
   "b": 65,
   "disableInputWhenNotFocused": true,
-  "mangledName": "level1",
-  "name": "level1",
+  "mangledName": "levels",
+  "name": "levels",
   "r": 65,
   "standardSortMethod": true,
   "stopSoundsOnStartup": true,
@@ -368,8 +368,8 @@
       "name": "RoundSlider",
       "persistentUuid": "6d567118-ce91-4745-bec3-92cbbfa39f67",
       "width": 200,
-      "x": 15,
-      "y": 785,
+      "x": 628,
+      "y": 750,
       "zOrder": 2,
       "numberProperties": [],
       "stringProperties": [],
@@ -384,7 +384,7 @@
       "persistentUuid": "82cc7acb-d6e3-400a-8422-527f298aa10f",
       "width": 200,
       "x": 833,
-      "y": 784,
+      "y": 750,
       "zOrder": 3,
       "numberProperties": [],
       "stringProperties": [],
@@ -413,8 +413,8 @@
       "name": "RoundSlider3",
       "persistentUuid": "79c4b0ee-2fb1-47ae-b563-1141021462b7",
       "width": 0,
-      "x": 239,
-      "y": 34,
+      "x": 35,
+      "y": 750,
       "zOrder": 4,
       "numberProperties": [],
       "stringProperties": [],
@@ -899,6 +899,21 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "debugtext",
+      "persistentUuid": "8d30d559-c3e5-41ee-8c78-e5aa6de46594",
+      "width": 0,
+      "x": 41,
+      "y": 822,
+      "zOrder": 5,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "objects": [
@@ -1190,9 +1205,9 @@
     },
     {
       "assetStoreId": "",
-      "bold": false,
+      "bold": true,
       "italic": false,
-      "name": "testobject",
+      "name": "debugtext",
       "smoothed": true,
       "tags": "",
       "type": "TextObject::Text",
@@ -1206,14 +1221,14 @@
           "checkCollisionMask": true
         }
       ],
-      "string": "Text",
+      "string": "Levels                                                                                                Color                            Shape",
       "font": "",
       "textAlignment": "left",
       "characterSize": 20,
       "color": {
-        "b": 0,
-        "g": 0,
-        "r": 0
+        "b": 255,
+        "g": 255,
+        "r": 255
       }
     },
     {

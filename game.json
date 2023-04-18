@@ -76,39 +76,6 @@
         "userAdded": false
       },
       {
-        "disablePreload": false,
-        "file": "levels/title_bg.tmj",
-        "kind": "tilemap",
-        "metadata": "",
-        "name": "levels\\title_bg.tmj",
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "levels/tileset_atlas.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "levels\\tileset_atlas.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "disablePreload": false,
-        "file": "levels/tileset.tsj",
-        "kind": "tileset",
-        "metadata": "",
-        "name": "levels\\tileset.tsj",
-        "userAdded": true
-      },
-      {
-        "disablePreload": false,
-        "file": "levels/title_fg.tmj",
-        "kind": "tilemap",
-        "metadata": "",
-        "name": "levels\\title_fg.tmj",
-        "userAdded": true
-      },
-      {
         "alwaysLoaded": false,
         "file": "assets/RedButtonIdle.png",
         "kind": "image",
@@ -268,42 +235,175 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/Small Plastic Green Round Slider Border.png",
+        "file": "levels/tileset_atlas.png",
         "kind": "image",
         "metadata": "",
-        "name": "Small Plastic Green Round Slider Border.png",
+        "name": "levels\\tileset_atlas.png",
         "smoothed": false,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/Settings UI/Slider/308609c5db4c7f741d0ea6ce46b7245524c9e48682f23c670ec81ea08f5917e5_Small Plastic Green Round Slider Border.png",
-          "name": "Small Plastic Green Round Slider Border.png"
-        }
+        "userAdded": false
+      },
+      {
+        "disablePreload": false,
+        "file": "levels/tileset.tsj",
+        "kind": "tileset",
+        "metadata": "",
+        "name": "levels\\tileset.tsj",
+        "userAdded": true
+      },
+      {
+        "disablePreload": false,
+        "file": "levels/title_fg.tmj",
+        "kind": "tilemap",
+        "metadata": "",
+        "name": "levels\\title_fg.tmj",
+        "userAdded": true
+      },
+      {
+        "disablePreload": false,
+        "file": "levels/title_bg.tmj",
+        "kind": "tilemap",
+        "metadata": "",
+        "name": "levels\\title_bg.tmj",
+        "userAdded": true
+      },
+      {
+        "disablePreload": false,
+        "file": "levels/level1.tmj",
+        "kind": "tilemap",
+        "metadata": "",
+        "name": "levels\\level1.tmj",
+        "userAdded": false
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/Transparent.png",
+        "file": "assets/GreenSliderThumb.png",
         "kind": "image",
         "metadata": "",
-        "name": "Transparent.png",
+        "name": "assets\\GreenSliderThumb.png",
         "smoothed": false,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/Settings UI/Slider/998e0aec3ae57e2bafb3d52e26ab64b10153d411f90c62198effb90b18ecd603_Transparent.png",
-          "name": "Transparent.png"
-        }
+        "userAdded": false
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/Small Plastic Green Round Slider Thumb.png",
+        "file": "assets/GreenSliderTransparent.png",
         "kind": "image",
         "metadata": "",
-        "name": "Small Plastic Green Round Slider Thumb.png",
+        "name": "assets\\GreenSliderTransparent.png",
         "smoothed": false,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/Settings UI/Slider/f1fe4aaaa4d6da59e2bf6b9411de1f013b5d86c5cacda01f99226c78f427f606_Small Plastic Green Round Slider Thumb.png",
-          "name": "Small Plastic Green Round Slider Thumb.png"
-        }
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/GreenSliderBorder.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\GreenSliderBorder.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "disablePreload": false,
+        "file": "levels/level1.json",
+        "kind": "json",
+        "metadata": "",
+        "name": "levels\\level1.json",
+        "userAdded": true
+      },
+      {
+        "disablePreload": false,
+        "file": "levels/level2.json",
+        "kind": "json",
+        "metadata": "",
+        "name": "levels\\level2.json",
+        "userAdded": true
+      },
+      {
+        "disablePreload": false,
+        "file": "levels/level3.json",
+        "kind": "json",
+        "metadata": "",
+        "name": "levels\\level3.json",
+        "userAdded": true
+      },
+      {
+        "disablePreload": false,
+        "file": "levels/level4.json",
+        "kind": "json",
+        "metadata": "",
+        "name": "levels\\level4.json",
+        "userAdded": true
+      },
+      {
+        "disablePreload": false,
+        "file": "levels/level5.json",
+        "kind": "json",
+        "metadata": "",
+        "name": "levels\\level5.json",
+        "userAdded": true
+      },
+      {
+        "disablePreload": false,
+        "file": "levels/level6.json",
+        "kind": "json",
+        "metadata": "",
+        "name": "levels\\level6.json",
+        "userAdded": true
+      },
+      {
+        "disablePreload": false,
+        "file": "levels/level7.json",
+        "kind": "json",
+        "metadata": "",
+        "name": "levels\\level7.json",
+        "userAdded": true
+      },
+      {
+        "disablePreload": false,
+        "file": "levels/level8.json",
+        "kind": "json",
+        "metadata": "",
+        "name": "levels\\level8.json",
+        "userAdded": true
+      },
+      {
+        "disablePreload": false,
+        "file": "levels/level9.json",
+        "kind": "json",
+        "metadata": "",
+        "name": "levels\\level9.json",
+        "userAdded": true
+      },
+      {
+        "disablePreload": false,
+        "file": "levels/level10.json",
+        "kind": "json",
+        "metadata": "",
+        "name": "levels\\level10.json",
+        "userAdded": false
+      },
+      {
+        "disablePreload": false,
+        "file": "levels/level11.json",
+        "kind": "json",
+        "metadata": "",
+        "name": "levels\\level11.json",
+        "userAdded": false
+      },
+      {
+        "disablePreload": false,
+        "file": "levels/level12.json",
+        "kind": "json",
+        "metadata": "",
+        "name": "levels\\level12.json",
+        "userAdded": true
+      },
+      {
+        "disablePreload": false,
+        "file": "levels/level13.json",
+        "kind": "json",
+        "metadata": "",
+        "name": "levels\\level13.json",
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -469,7 +569,7 @@
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/layouts/level1"
+      "referenceTo": "/layouts/levels"
     }
   ],
   "externalEvents": [
@@ -496,6 +596,26 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/externalEvents/player_shape"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalEvents/level_shifter"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalEvents/player_controls"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalEvents/debug_sliders"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalEvents/level_actions"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalEvents/media_actions"
     }
   ],
   "eventsFunctionsExtensions": [

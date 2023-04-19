@@ -2,7 +2,7 @@
 The perfect way to kill some time while challenging your mind and reflexes.
 
 ## Introduction
-TimeShifter puts a fresh spin on puzzle-solving, drawing inspiration from Fupa.com's Shape Switcher. This game is designed to test your speed and agility as you navigate through puzzles with ease. With user-friendly controls and soothing sounds, you'll be motivated to become the quickest puzzle-solver around!
+TimeShifter puts a fresh spin on puzzle-solving, drawing inspiration from Fupa.com's Shape Switcher flash game. This game is designed to test your speed and agility as you navigate through puzzles with ease. With user-friendly controls and soothing sounds, you'll be motivated to become the quickest puzzle-solver around!
 
 ## How to Play & Screenshots
 Please visit the official game page on [itch.io](https://ikmalsaid.itch.io/timeshifter) for up-to-date information and screenshots.

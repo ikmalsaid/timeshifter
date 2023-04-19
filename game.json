@@ -23,7 +23,7 @@
     "author": "Ikmal Said",
     "windowWidth": 1056,
     "windowHeight": 864,
-    "latestCompilationDirectory": "",
+    "latestCompilationDirectory": "E:\\Personal\\Works\\ikmalsaid\\2023\\github\\GDevelop-TimeShifter\\_export",
     "maxFPS": 60,
     "minFPS": 60,
     "verticalSync": false,
@@ -435,7 +435,7 @@
         "name": "music\\OptimisticLoneliness.mp3",
         "preloadAsMusic": false,
         "preloadAsSound": false,
-        "preloadInCache": false,
+        "preloadInCache": true,
         "userAdded": false
       },
       {
@@ -445,7 +445,7 @@
         "name": "sound\\button.mp3",
         "preloadAsMusic": false,
         "preloadAsSound": false,
-        "preloadInCache": false,
+        "preloadInCache": true,
         "userAdded": true
       },
       {
@@ -455,7 +455,7 @@
         "name": "sound\\reject.mp3",
         "preloadAsMusic": false,
         "preloadAsSound": false,
-        "preloadInCache": false,
+        "preloadInCache": true,
         "userAdded": true
       },
       {
@@ -465,7 +465,7 @@
         "name": "sound\\color.mp3",
         "preloadAsMusic": false,
         "preloadAsSound": false,
-        "preloadInCache": false,
+        "preloadInCache": true,
         "userAdded": true
       },
       {
@@ -475,7 +475,7 @@
         "name": "sound\\shape.mp3",
         "preloadAsMusic": false,
         "preloadAsSound": false,
-        "preloadInCache": false,
+        "preloadInCache": true,
         "userAdded": true
       }
     ],

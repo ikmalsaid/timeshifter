@@ -1,17 +1,33 @@
 {
-    "activeFile": "level3.json",
+    "activeFile": "level7.json",
     "expandedProjectPaths": [
-        "templates",
-        "."
+        ".",
+        "templates"
     ],
     "file.lastUsedOpenFilter": "All Files (*)",
     "fileStates": {
+        "level1.json": {
+            "scale": 2.4289772727272725,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 208.1122807017544,
+                "y": 176.2058479532164
+            }
+        },
         "level1.tmj": {
             "scale": 2.42,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 238.63636363636365,
-                "y": 183.05785123966942
+                "x": 513.4297520661157,
+                "y": 182.2314049586777
+            }
+        },
+        "level10.json": {
+            "scale": 1.0847355769230769,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 208.806648199446,
+                "y": 176.54072022160668
             }
         },
         "level10.tmj": {
@@ -22,6 +38,22 @@
                 "y": 175.38245614035085
             }
         },
+        "level11.json": {
+            "scale": 1.0847355769230769,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 208.806648199446,
+                "y": 176.54072022160668
+            }
+        },
+        "level12.json": {
+            "scale": 1.0847355769230769,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 208.806648199446,
+                "y": 176.54072022160668
+            }
+        },
         "level12.tmj": {
             "scale": 2.4289772727272725,
             "selectedLayer": 0,
@@ -30,12 +62,28 @@
                 "y": 175.38245614035085
             }
         },
+        "level13.json": {
+            "scale": 1.0847355769230769,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 208.806648199446,
+                "y": 176.54072022160668
+            }
+        },
+        "level2.json": {
+            "scale": 2.4289772727272725,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 208.1122807017544,
+                "y": 176.2058479532164
+            }
+        },
         "level3.json": {
             "scale": 2.96875,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 175.99999999999997,
-                "y": 54.90526315789472
+                "x": 175.32631578947368,
+                "y": 217.93684210526317
             }
         },
         "level3.tmj": {
@@ -46,12 +94,28 @@
                 "y": 107.78947368421052
             }
         },
+        "level4.json": {
+            "scale": 1.6624999999999999,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 208.42105263157902,
+                "y": 261.6541353383459
+            }
+        },
         "level4.tmj": {
             "scale": 1.6624999999999999,
             "selectedLayer": 0,
             "viewCenter": {
                 "x": 206.91729323308272,
                 "y": 260.4511278195489
+            }
+        },
+        "level5.json": {
+            "scale": 2.4289772727272725,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 208.1122807017544,
+                "y": 176.2058479532164
             }
         },
         "level5.tmj": {
@@ -62,12 +126,44 @@
                 "y": 175.38245614035085
             }
         },
+        "level6.json": {
+            "scale": 1.0847355769230769,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 208.806648199446,
+                "y": 176.54072022160668
+            }
+        },
         "level6.tmj": {
             "scale": 2.4289772727272725,
             "selectedLayer": 0,
             "viewCenter": {
                 "x": 207.2888888888889,
                 "y": 175.38245614035085
+            }
+        },
+        "level7.json": {
+            "scale": 1.0847355769230769,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 208.806648199446,
+                "y": 176.54072022160668
+            }
+        },
+        "level8.json": {
+            "scale": 1.0847355769230769,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 208.806648199446,
+                "y": 176.54072022160668
+            }
+        },
+        "level9.json": {
+            "scale": 1.0847355769230769,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 208.806648199446,
+                "y": 176.54072022160668
             }
         },
         "level9.tmj": {
@@ -88,27 +184,33 @@
     },
     "map.lastUsedFormat": "json",
     "openFiles": [
-        "tileset.tsj",
-        "level1.tmj",
-        "level12.tmj",
-        "level10.tmj",
-        "level6.tmj",
+        "level1.json",
+        "level2.json",
         "level3.json",
-        "level4.tmj",
-        "level5.tmj",
-        "level9.tmj"
+        "level4.json",
+        "level5.json",
+        "level6.json",
+        "level7.json",
+        "level8.json",
+        "level9.json",
+        "level10.json",
+        "level11.json",
+        "level12.json",
+        "level13.json"
     ],
     "project": "levels.tiled-project",
     "recentFiles": [
-        "tileset.tsj",
-        "level1.tmj",
-        "level12.tmj",
-        "level10.tmj",
-        "level6.tmj",
-        "level9.tmj",
-        "level5.tmj",
-        "level4.tmj",
+        "level1.json",
+        "level2.json",
         "level3.json",
-        "level3.tmj"
+        "level4.json",
+        "level5.json",
+        "level6.json",
+        "level13.json",
+        "level12.json",
+        "level11.json",
+        "level10.json",
+        "level9.json",
+        "level8.json"
     ]
 }

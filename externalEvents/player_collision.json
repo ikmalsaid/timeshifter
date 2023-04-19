@@ -1,7 +1,7 @@
 {
   "associatedLayout": "levels",
   "lastChangeTimeStamp": 0,
-  "name": "player_shifter",
+  "name": "player_collision",
   "events": [
     {
       "type": "BuiltinCommonInstructions::Comment",
@@ -72,6 +72,12 @@
             "",
             ""
           ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
         }
       ],
       "actions": [
@@ -83,6 +89,19 @@
             "level_complete",
             "=",
             "1"
+          ]
+        },
+        {
+          "type": {
+            "value": "PlaySoundCanal"
+          },
+          "parameters": [
+            "",
+            "sound\\button.mp3",
+            "100",
+            "",
+            "",
+            ""
           ]
         }
       ]
@@ -139,6 +158,34 @@
             ""
           ]
         }
+      ],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlaySoundCanal"
+              },
+              "parameters": [
+                "",
+                "sound\\reject.mp3",
+                "100",
+                "",
+                "",
+                ""
+              ]
+            }
+          ]
+        }
       ]
     },
     {
@@ -180,6 +227,34 @@
             ""
           ]
         }
+      ],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlaySoundCanal"
+              },
+              "parameters": [
+                "",
+                "sound\\reject.mp3",
+                "100",
+                "",
+                "",
+                ""
+              ]
+            }
+          ]
+        }
       ]
     },
     {
@@ -219,6 +294,34 @@
             "player",
             "blue_doors",
             ""
+          ]
+        }
+      ],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlaySoundCanal"
+              },
+              "parameters": [
+                "",
+                "sound\\reject.mp3",
+                "100",
+                "",
+                "",
+                ""
+              ]
+            }
           ]
         }
       ]
@@ -275,6 +378,34 @@
             ""
           ]
         }
+      ],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlaySoundCanal"
+              },
+              "parameters": [
+                "",
+                "sound\\reject.mp3",
+                "100",
+                "",
+                "",
+                ""
+              ]
+            }
+          ]
+        }
       ]
     },
     {
@@ -316,6 +447,34 @@
             ""
           ]
         }
+      ],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlaySoundCanal"
+              },
+              "parameters": [
+                "",
+                "sound\\reject.mp3",
+                "100",
+                "",
+                "",
+                ""
+              ]
+            }
+          ]
+        }
       ]
     },
     {
@@ -355,6 +514,34 @@
             "player",
             "triangle_doors",
             ""
+          ]
+        }
+      ],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlaySoundCanal"
+              },
+              "parameters": [
+                "",
+                "sound\\reject.mp3",
+                "100",
+                "",
+                "",
+                ""
+              ]
+            }
           ]
         }
       ]
@@ -400,6 +587,34 @@
             "1"
           ]
         }
+      ],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlaySoundCanal"
+              },
+              "parameters": [
+                "",
+                "sound\\color.mp3",
+                "100",
+                "",
+                "",
+                ""
+              ]
+            }
+          ]
+        }
       ]
     },
     {
@@ -430,6 +645,34 @@
             "2"
           ]
         }
+      ],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlaySoundCanal"
+              },
+              "parameters": [
+                "",
+                "sound\\color.mp3",
+                "100",
+                "",
+                "",
+                ""
+              ]
+            }
+          ]
+        }
       ]
     },
     {
@@ -458,6 +701,34 @@
             "current_color",
             "=",
             "3"
+          ]
+        }
+      ],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlaySoundCanal"
+              },
+              "parameters": [
+                "",
+                "sound\\color.mp3",
+                "100",
+                "",
+                "",
+                ""
+              ]
+            }
           ]
         }
       ]
@@ -503,6 +774,34 @@
             "1"
           ]
         }
+      ],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlaySoundCanal"
+              },
+              "parameters": [
+                "",
+                "sound\\shape.mp3",
+                "100",
+                "",
+                "",
+                ""
+              ]
+            }
+          ]
+        }
       ]
     },
     {
@@ -533,6 +832,34 @@
             "2"
           ]
         }
+      ],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlaySoundCanal"
+              },
+              "parameters": [
+                "",
+                "sound\\shape.mp3",
+                "100",
+                "",
+                "",
+                ""
+              ]
+            }
+          ]
+        }
       ]
     },
     {
@@ -561,6 +888,34 @@
             "current_shape",
             "=",
             "3"
+          ]
+        }
+      ],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlaySoundCanal"
+              },
+              "parameters": [
+                "",
+                "sound\\shape.mp3",
+                "100",
+                "",
+                "",
+                ""
+              ]
+            }
           ]
         }
       ]

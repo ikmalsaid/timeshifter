@@ -5,7 +5,7 @@
   "name": "levels",
   "r": 65,
   "standardSortMethod": true,
-  "stopSoundsOnStartup": true,
+  "stopSoundsOnStartup": false,
   "title": "",
   "v": 65,
   "uiSettings": {
@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.4757771121803918,
+    "zoomFactor": 0.24509948246790236,
     "windowMask": false
   },
   "objectsGroups": [
@@ -334,6 +334,23 @@
           "name": "level_star"
         }
       ]
+    },
+    {
+      "name": "debug_sliders",
+      "objects": [
+        {
+          "name": "debugtext"
+        },
+        {
+          "name": "RoundSlider"
+        },
+        {
+          "name": "RoundSlider2"
+        },
+        {
+          "name": "RoundSlider3"
+        }
+      ]
     }
   ],
   "variables": [],
@@ -341,13 +358,13 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 45,
+      "height": 40,
       "layer": "",
       "name": "player",
       "persistentUuid": "592d6247-17e1-4bb9-aaeb-98fe1e2b067d",
-      "width": 45,
-      "x": 303,
-      "y": 410,
+      "width": 40,
+      "x": 293,
+      "y": 415,
       "zOrder": 3,
       "numberProperties": [],
       "stringProperties": [],
@@ -368,8 +385,8 @@
       "name": "RoundSlider",
       "persistentUuid": "6d567118-ce91-4745-bec3-92cbbfa39f67",
       "width": 200,
-      "x": 628,
-      "y": 750,
+      "x": 618,
+      "y": 917,
       "zOrder": 2,
       "numberProperties": [],
       "stringProperties": [],
@@ -383,8 +400,8 @@
       "name": "RoundSlider2",
       "persistentUuid": "82cc7acb-d6e3-400a-8422-527f298aa10f",
       "width": 200,
-      "x": 833,
-      "y": 750,
+      "x": 823,
+      "y": 917,
       "zOrder": 3,
       "numberProperties": [],
       "stringProperties": [],
@@ -395,11 +412,12 @@
       "customSize": true,
       "height": 576,
       "layer": "",
+      "locked": true,
       "name": "level_map",
       "persistentUuid": "4bc94e0f-346e-430b-a852-3f1d472db741",
       "width": 704,
-      "x": 185,
-      "y": 146,
+      "x": 177,
+      "y": 148,
       "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
@@ -413,8 +431,8 @@
       "name": "RoundSlider3",
       "persistentUuid": "79c4b0ee-2fb1-47ae-b563-1141021462b7",
       "width": 0,
-      "x": 35,
-      "y": 750,
+      "x": 25,
+      "y": 917,
       "zOrder": 4,
       "numberProperties": [],
       "stringProperties": [],
@@ -425,11 +443,12 @@
       "customSize": true,
       "height": 576,
       "layer": "",
+      "locked": true,
       "name": "level_wall",
       "persistentUuid": "18d6dc39-47ca-4a4e-8a0c-50037f6a53a7",
       "width": 704,
-      "x": 185,
-      "y": 146,
+      "x": 177,
+      "y": 148,
       "zOrder": 2,
       "numberProperties": [],
       "stringProperties": [],
@@ -440,11 +459,12 @@
       "customSize": true,
       "height": 576,
       "layer": "",
+      "locked": true,
       "name": "level_rcd",
       "persistentUuid": "2305d755-4a58-41de-88bc-eedc4fc5afc9",
       "width": 704,
-      "x": 185,
-      "y": 146,
+      "x": 177,
+      "y": 148,
       "zOrder": 2,
       "numberProperties": [],
       "stringProperties": [],
@@ -455,11 +475,12 @@
       "customSize": true,
       "height": 576,
       "layer": "",
+      "locked": true,
       "name": "level_gcd",
       "persistentUuid": "667cfdff-02fd-4e65-900c-b2bea321a562",
       "width": 704,
-      "x": 185,
-      "y": 146,
+      "x": 177,
+      "y": 148,
       "zOrder": 2,
       "numberProperties": [],
       "stringProperties": [],
@@ -470,11 +491,12 @@
       "customSize": true,
       "height": 576,
       "layer": "",
+      "locked": true,
       "name": "level_bcd",
       "persistentUuid": "4fd9895d-5fb3-4794-b49c-7732bb5b998c",
       "width": 704,
-      "x": 185,
-      "y": 146,
+      "x": 177,
+      "y": 148,
       "zOrder": 2,
       "numberProperties": [],
       "stringProperties": [],
@@ -485,11 +507,12 @@
       "customSize": true,
       "height": 576,
       "layer": "",
+      "locked": true,
       "name": "level_rsd",
       "persistentUuid": "e7984a01-5e0d-44df-895e-6a9e8544c74d",
       "width": 704,
-      "x": 185,
-      "y": 146,
+      "x": 177,
+      "y": 148,
       "zOrder": 2,
       "numberProperties": [],
       "stringProperties": [],
@@ -500,11 +523,12 @@
       "customSize": true,
       "height": 576,
       "layer": "",
+      "locked": true,
       "name": "level_gsd",
       "persistentUuid": "33bcc454-6e09-499a-89c8-be9a55b9bc80",
       "width": 704,
-      "x": 185,
-      "y": 146,
+      "x": 177,
+      "y": 148,
       "zOrder": 2,
       "numberProperties": [],
       "stringProperties": [],
@@ -515,11 +539,12 @@
       "customSize": true,
       "height": 576,
       "layer": "",
+      "locked": true,
       "name": "level_bsd",
       "persistentUuid": "0e784cdb-cfdf-41b6-a024-52a846cb7a13",
       "width": 704,
-      "x": 185,
-      "y": 146,
+      "x": 177,
+      "y": 148,
       "zOrder": 2,
       "numberProperties": [],
       "stringProperties": [],
@@ -530,11 +555,12 @@
       "customSize": true,
       "height": 576,
       "layer": "",
+      "locked": true,
       "name": "level_rtd",
       "persistentUuid": "00c98566-5932-4d9f-a631-f148d64d074a",
       "width": 704,
-      "x": 185,
-      "y": 146,
+      "x": 177,
+      "y": 148,
       "zOrder": 2,
       "numberProperties": [],
       "stringProperties": [],
@@ -545,11 +571,12 @@
       "customSize": true,
       "height": 576,
       "layer": "",
+      "locked": true,
       "name": "level_gtd",
       "persistentUuid": "f164d041-b432-495d-8139-29b8f320e746",
       "width": 704,
-      "x": 185,
-      "y": 146,
+      "x": 177,
+      "y": 148,
       "zOrder": 2,
       "numberProperties": [],
       "stringProperties": [],
@@ -560,11 +587,12 @@
       "customSize": true,
       "height": 576,
       "layer": "",
+      "locked": true,
       "name": "level_btd",
       "persistentUuid": "0f485e51-6a6e-41bb-8469-55f0b76e1098",
       "width": 704,
-      "x": 185,
-      "y": 146,
+      "x": 177,
+      "y": 148,
       "zOrder": 2,
       "numberProperties": [],
       "stringProperties": [],
@@ -575,11 +603,12 @@
       "customSize": true,
       "height": 576,
       "layer": "",
+      "locked": true,
       "name": "level_rd",
       "persistentUuid": "70208a96-89e8-4c48-81eb-9f56f98f8349",
       "width": 704,
-      "x": 185,
-      "y": 146,
+      "x": 177,
+      "y": 148,
       "zOrder": 2,
       "numberProperties": [],
       "stringProperties": [],
@@ -590,11 +619,12 @@
       "customSize": true,
       "height": 576,
       "layer": "",
+      "locked": true,
       "name": "level_gd",
       "persistentUuid": "74d35ef7-f05a-4df3-bccb-d388202a6518",
       "width": 704,
-      "x": 185,
-      "y": 146,
+      "x": 177,
+      "y": 148,
       "zOrder": 2,
       "numberProperties": [],
       "stringProperties": [],
@@ -605,11 +635,12 @@
       "customSize": true,
       "height": 576,
       "layer": "",
+      "locked": true,
       "name": "level_bd",
       "persistentUuid": "4f781c81-e0a5-451b-a6ba-5e76ab9a59f3",
       "width": 704,
-      "x": 185,
-      "y": 146,
+      "x": 177,
+      "y": 148,
       "zOrder": 2,
       "numberProperties": [],
       "stringProperties": [],
@@ -620,11 +651,12 @@
       "customSize": true,
       "height": 576,
       "layer": "",
+      "locked": true,
       "name": "level_rcp",
       "persistentUuid": "3d6cfa05-afc9-40ca-9784-d6e9bbece2ba",
       "width": 704,
-      "x": 185,
-      "y": 146,
+      "x": 177,
+      "y": 148,
       "zOrder": 2,
       "numberProperties": [],
       "stringProperties": [],
@@ -635,11 +667,12 @@
       "customSize": true,
       "height": 576,
       "layer": "",
+      "locked": true,
       "name": "level_gcp",
       "persistentUuid": "fdda591f-96ad-496c-89a5-c146c5bcb39c",
       "width": 704,
-      "x": 185,
-      "y": 146,
+      "x": 177,
+      "y": 148,
       "zOrder": 2,
       "numberProperties": [],
       "stringProperties": [],
@@ -650,11 +683,12 @@
       "customSize": true,
       "height": 576,
       "layer": "",
+      "locked": true,
       "name": "level_bcp",
       "persistentUuid": "8cb373ea-cf7d-44b1-b169-e7ffd5443bf8",
       "width": 704,
-      "x": 185,
-      "y": 146,
+      "x": 177,
+      "y": 148,
       "zOrder": 2,
       "numberProperties": [],
       "stringProperties": [],
@@ -665,11 +699,12 @@
       "customSize": true,
       "height": 576,
       "layer": "",
+      "locked": true,
       "name": "level_rsp",
       "persistentUuid": "4c9e5361-7f05-4efa-86f1-21bd2357494c",
       "width": 704,
-      "x": 185,
-      "y": 146,
+      "x": 177,
+      "y": 148,
       "zOrder": 2,
       "numberProperties": [],
       "stringProperties": [],
@@ -680,11 +715,12 @@
       "customSize": true,
       "height": 576,
       "layer": "",
+      "locked": true,
       "name": "level_gsp",
       "persistentUuid": "433415b1-d86b-4b9d-bced-86f09013517c",
       "width": 704,
-      "x": 185,
-      "y": 146,
+      "x": 177,
+      "y": 148,
       "zOrder": 2,
       "numberProperties": [],
       "stringProperties": [],
@@ -695,11 +731,12 @@
       "customSize": true,
       "height": 576,
       "layer": "",
+      "locked": true,
       "name": "level_bsp",
       "persistentUuid": "04b6348d-72d1-45e4-a940-8330c93da6a7",
       "width": 704,
-      "x": 185,
-      "y": 146,
+      "x": 177,
+      "y": 148,
       "zOrder": 2,
       "numberProperties": [],
       "stringProperties": [],
@@ -710,11 +747,12 @@
       "customSize": true,
       "height": 576,
       "layer": "",
+      "locked": true,
       "name": "level_rtp",
       "persistentUuid": "8a86ffe7-29a5-44c9-aa53-0d52af3311a0",
       "width": 704,
-      "x": 185,
-      "y": 146,
+      "x": 177,
+      "y": 148,
       "zOrder": 2,
       "numberProperties": [],
       "stringProperties": [],
@@ -725,11 +763,12 @@
       "customSize": true,
       "height": 576,
       "layer": "",
+      "locked": true,
       "name": "level_gtp",
       "persistentUuid": "7615feed-b21d-47bd-9e97-7a26d4dc9989",
       "width": 704,
-      "x": 185,
-      "y": 146,
+      "x": 177,
+      "y": 148,
       "zOrder": 2,
       "numberProperties": [],
       "stringProperties": [],
@@ -740,11 +779,12 @@
       "customSize": true,
       "height": 576,
       "layer": "",
+      "locked": true,
       "name": "level_btp",
       "persistentUuid": "8f4cd4bb-cdfe-40be-9035-a7f1bf93073d",
       "width": 704,
-      "x": 185,
-      "y": 146,
+      "x": 177,
+      "y": 148,
       "zOrder": 2,
       "numberProperties": [],
       "stringProperties": [],
@@ -755,11 +795,12 @@
       "customSize": true,
       "height": 576,
       "layer": "",
+      "locked": true,
       "name": "level_rp",
       "persistentUuid": "e8ca97f2-8250-402c-9f4f-c953c1923d33",
       "width": 704,
-      "x": 185,
-      "y": 146,
+      "x": 177,
+      "y": 148,
       "zOrder": 2,
       "numberProperties": [],
       "stringProperties": [],
@@ -770,11 +811,12 @@
       "customSize": true,
       "height": 576,
       "layer": "",
+      "locked": true,
       "name": "level_gp",
       "persistentUuid": "1c7252d9-144e-4b87-b4d2-6d40b38ced48",
       "width": 704,
-      "x": 185,
-      "y": 146,
+      "x": 177,
+      "y": 148,
       "zOrder": 2,
       "numberProperties": [],
       "stringProperties": [],
@@ -785,11 +827,12 @@
       "customSize": true,
       "height": 576,
       "layer": "",
+      "locked": true,
       "name": "level_bp",
       "persistentUuid": "2a3660aa-f954-46e2-818d-9e15573b65bf",
       "width": 704,
-      "x": 185,
-      "y": 146,
+      "x": 177,
+      "y": 148,
       "zOrder": 2,
       "numberProperties": [],
       "stringProperties": [],
@@ -800,11 +843,12 @@
       "customSize": true,
       "height": 576,
       "layer": "",
+      "locked": true,
       "name": "level_cp",
       "persistentUuid": "81eb15d9-34cc-4337-b608-7f1353f14ca9",
       "width": 704,
-      "x": 185,
-      "y": 146,
+      "x": 177,
+      "y": 148,
       "zOrder": 2,
       "numberProperties": [],
       "stringProperties": [],
@@ -815,11 +859,12 @@
       "customSize": true,
       "height": 576,
       "layer": "",
+      "locked": true,
       "name": "level_sp",
       "persistentUuid": "eadcf1c3-c5be-40d5-8f1d-5ee34a578922",
       "width": 704,
-      "x": 185,
-      "y": 146,
+      "x": 177,
+      "y": 148,
       "zOrder": 2,
       "numberProperties": [],
       "stringProperties": [],
@@ -830,11 +875,12 @@
       "customSize": true,
       "height": 576,
       "layer": "",
+      "locked": true,
       "name": "level_tp",
       "persistentUuid": "08091bff-ffeb-47fe-b73b-7ac9f865d15c",
       "width": 704,
-      "x": 185,
-      "y": 146,
+      "x": 177,
+      "y": 148,
       "zOrder": 2,
       "numberProperties": [],
       "stringProperties": [],
@@ -845,11 +891,12 @@
       "customSize": true,
       "height": 576,
       "layer": "",
+      "locked": true,
       "name": "level_cd",
       "persistentUuid": "b3dde8fd-a29b-474a-9ed5-cf6ed573df8c",
       "width": 704,
-      "x": 185,
-      "y": 146,
+      "x": 177,
+      "y": 148,
       "zOrder": 2,
       "numberProperties": [],
       "stringProperties": [],
@@ -860,11 +907,12 @@
       "customSize": true,
       "height": 576,
       "layer": "",
+      "locked": true,
       "name": "level_sd",
       "persistentUuid": "0d3bf868-da33-4c6d-8734-13f6be04cbe2",
       "width": 704,
-      "x": 185,
-      "y": 146,
+      "x": 177,
+      "y": 148,
       "zOrder": 2,
       "numberProperties": [],
       "stringProperties": [],
@@ -875,11 +923,12 @@
       "customSize": true,
       "height": 576,
       "layer": "",
+      "locked": true,
       "name": "level_td",
       "persistentUuid": "24eaaac2-cba2-4d77-ae16-1caf7964faba",
       "width": 704,
-      "x": 185,
-      "y": 146,
+      "x": 177,
+      "y": 148,
       "zOrder": 2,
       "numberProperties": [],
       "stringProperties": [],
@@ -890,11 +939,12 @@
       "customSize": true,
       "height": 576,
       "layer": "",
+      "locked": true,
       "name": "level_star",
       "persistentUuid": "2c9dfb2e-73f9-4bc1-83f1-b7bcc17260c5",
       "width": 704,
-      "x": 185,
-      "y": 146,
+      "x": 177,
+      "y": 148,
       "zOrder": 2,
       "numberProperties": [],
       "stringProperties": [],
@@ -908,9 +958,204 @@
       "name": "debugtext",
       "persistentUuid": "8d30d559-c3e5-41ee-8c78-e5aa6de46594",
       "width": 0,
-      "x": 41,
-      "y": 822,
+      "x": 31,
+      "y": 989,
       "zOrder": 5,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 986,
+      "layer": "",
+      "name": "blackscreen",
+      "persistentUuid": "cb7f7f32-9678-47c5-9651-e6e15de788e4",
+      "width": 1161,
+      "x": 1150,
+      "y": -67,
+      "zOrder": 6,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "transition",
+      "persistentUuid": "293a91d9-8453-43dc-8c84-ac5eafe7d903",
+      "width": 0,
+      "x": 1074,
+      "y": 935,
+      "zOrder": 7,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 70,
+      "layer": "",
+      "name": "next_level",
+      "persistentUuid": "cd4e7193-68b6-4666-ba39-78a07599cd92",
+      "width": 470,
+      "x": 1150,
+      "y": 520,
+      "zOrder": 8,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 70,
+      "layer": "",
+      "name": "quit_game",
+      "persistentUuid": "807b5510-11d2-46c6-aaac-cb1de4c6e420",
+      "width": 470,
+      "x": 1150,
+      "y": 720,
+      "zOrder": 9,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 73,
+      "layer": "",
+      "name": "level_complete",
+      "persistentUuid": "6ca183aa-7ad0-49e0-82e3-a21619deee41",
+      "width": 703,
+      "x": -770,
+      "y": 218,
+      "zOrder": 10,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "player_total_score",
+      "persistentUuid": "55642026-3a32-4abd-88c2-9eb7844ef5ec",
+      "width": 0,
+      "x": 1150,
+      "y": 326,
+      "zOrder": 11,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 70,
+      "layer": "",
+      "name": "try_again",
+      "persistentUuid": "09f8ff43-87e1-4b10-9474-a9a70f177515",
+      "width": 470,
+      "x": -700,
+      "y": 620,
+      "zOrder": 13,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 47,
+      "layer": "",
+      "name": "game_time",
+      "persistentUuid": "4a4c97de-e862-4ab8-986b-a072cd22798a",
+      "width": 705,
+      "x": 175,
+      "y": 85,
+      "zOrder": 14,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 581,
+      "layer": "",
+      "name": "white_border",
+      "persistentUuid": "a4d7961c-3055-4d0a-8c39-8db660eb3fe1",
+      "width": 710,
+      "x": 174,
+      "y": 145,
+      "zOrder": 0,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 944,
+      "layer": "",
+      "name": "moving_bg",
+      "persistentUuid": "ac877d22-c8c1-4399-a6cb-7b2d34906ee2",
+      "width": 1122,
+      "x": -27,
+      "y": -35,
+      "zOrder": -1,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 70,
+      "layer": "",
+      "name": "reset",
+      "persistentUuid": "0df0ffeb-def5-4d2f-896f-c55bfb4aad96",
+      "width": 240,
+      "x": 173,
+      "y": 740,
+      "zOrder": 4,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 70,
+      "layer": "",
+      "name": "exit",
+      "persistentUuid": "e243c30d-2a24-412a-86d7-e3b7eb2ff934",
+      "width": 240,
+      "x": 646,
+      "y": 740,
+      "zOrder": 4,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "controls",
+      "persistentUuid": "8380649d-be08-4929-a9d6-d2ca13d28d37",
+      "width": 0,
+      "x": 445,
+      "y": 756,
+      "zOrder": 4,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -934,7 +1179,7 @@
           "folded": true,
           "name": "current_color",
           "type": "number",
-          "value": 2
+          "value": 1
         }
       ],
       "effects": [],
@@ -1204,6 +1449,657 @@
       ]
     },
     {
+      "assetStoreId": "5faf2b0415c271fa6e747283ed36297a95f04d2b6c477a7b011775fa6fb444ee",
+      "name": "next_level",
+      "tags": "",
+      "type": "PanelSpriteButton::PanelSpriteButton",
+      "variables": [
+        {
+          "name": "pos",
+          "type": "array",
+          "children": [
+            {
+              "folded": true,
+              "type": "number",
+              "value": 215
+            },
+            {
+              "folded": true,
+              "type": "number",
+              "value": 370
+            }
+          ]
+        }
+      ],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
+        }
+      ],
+      "content": {
+        "LeftPadding": 16,
+        "RightPadding": 16,
+        "PressedLabelOffsetY": 3,
+        "BottomPadding": 32,
+        "TopPadding": 32,
+        "HoveredFadeOutDuration": 0.25
+      },
+      "childrenContent": {
+        "Hovered": {
+          "bottomMargin": 16,
+          "height": 69,
+          "leftMargin": 16,
+          "rightMargin": 16,
+          "texture": "assets\\RedButtonHovered.png",
+          "tiled": true,
+          "topMargin": 16,
+          "width": 192
+        },
+        "Idle": {
+          "bottomMargin": 16,
+          "height": 69,
+          "leftMargin": 16,
+          "rightMargin": 16,
+          "texture": "assets\\RedButtonIdle.png",
+          "tiled": true,
+          "topMargin": 16,
+          "width": 192
+        },
+        "Label": {
+          "bold": true,
+          "italic": false,
+          "smoothed": true,
+          "underlined": false,
+          "string": "Proceed to Next Level >",
+          "font": "fonts\\MontserratBold.otf",
+          "textAlignment": "center",
+          "characterSize": 32,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          }
+        },
+        "Pressed": {
+          "bottomMargin": 16,
+          "height": 69,
+          "leftMargin": 16,
+          "rightMargin": 16,
+          "texture": "assets\\RedButtonPressed.png",
+          "tiled": true,
+          "topMargin": 16,
+          "width": 192
+        }
+      }
+    },
+    {
+      "assetStoreId": "5faf2b0415c271fa6e747283ed36297a95f04d2b6c477a7b011775fa6fb444ee",
+      "name": "reset",
+      "tags": "",
+      "type": "PanelSpriteButton::PanelSpriteButton",
+      "variables": [
+        {
+          "name": "pos",
+          "type": "array",
+          "children": [
+            {
+              "folded": true,
+              "type": "number",
+              "value": 215
+            },
+            {
+              "folded": true,
+              "type": "number",
+              "value": 370
+            }
+          ]
+        }
+      ],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
+        }
+      ],
+      "content": {
+        "LeftPadding": 16,
+        "RightPadding": 16,
+        "PressedLabelOffsetY": 3,
+        "BottomPadding": 32,
+        "TopPadding": 32,
+        "HoveredFadeOutDuration": 0.25
+      },
+      "childrenContent": {
+        "Hovered": {
+          "bottomMargin": 16,
+          "height": 69,
+          "leftMargin": 16,
+          "rightMargin": 16,
+          "texture": "assets\\RedButtonHovered.png",
+          "tiled": true,
+          "topMargin": 16,
+          "width": 192
+        },
+        "Idle": {
+          "bottomMargin": 16,
+          "height": 69,
+          "leftMargin": 16,
+          "rightMargin": 16,
+          "texture": "assets\\RedButtonIdle.png",
+          "tiled": true,
+          "topMargin": 16,
+          "width": 192
+        },
+        "Label": {
+          "bold": true,
+          "italic": false,
+          "smoothed": true,
+          "underlined": false,
+          "string": "Reset Level",
+          "font": "fonts\\MontserratBold.otf",
+          "textAlignment": "center",
+          "characterSize": 32,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          }
+        },
+        "Pressed": {
+          "bottomMargin": 16,
+          "height": 69,
+          "leftMargin": 16,
+          "rightMargin": 16,
+          "texture": "assets\\RedButtonPressed.png",
+          "tiled": true,
+          "topMargin": 16,
+          "width": 192
+        }
+      }
+    },
+    {
+      "assetStoreId": "5faf2b0415c271fa6e747283ed36297a95f04d2b6c477a7b011775fa6fb444ee",
+      "name": "sound",
+      "tags": "",
+      "type": "PanelSpriteButton::PanelSpriteButton",
+      "variables": [
+        {
+          "name": "pos",
+          "type": "array",
+          "children": [
+            {
+              "folded": true,
+              "type": "number",
+              "value": 215
+            },
+            {
+              "folded": true,
+              "type": "number",
+              "value": 370
+            }
+          ]
+        }
+      ],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
+        }
+      ],
+      "content": {
+        "LeftPadding": 16,
+        "RightPadding": 16,
+        "PressedLabelOffsetY": 3,
+        "BottomPadding": 32,
+        "TopPadding": 32,
+        "HoveredFadeOutDuration": 0.25
+      },
+      "childrenContent": {
+        "Hovered": {
+          "bottomMargin": 16,
+          "height": 69,
+          "leftMargin": 16,
+          "rightMargin": 16,
+          "texture": "assets\\RedButtonHovered.png",
+          "tiled": true,
+          "topMargin": 16,
+          "width": 192
+        },
+        "Idle": {
+          "bottomMargin": 16,
+          "height": 69,
+          "leftMargin": 16,
+          "rightMargin": 16,
+          "texture": "assets\\RedButtonIdle.png",
+          "tiled": true,
+          "topMargin": 16,
+          "width": 192
+        },
+        "Label": {
+          "bold": true,
+          "italic": false,
+          "smoothed": true,
+          "underlined": false,
+          "string": "Audio: Off",
+          "font": "fonts\\MontserratBold.otf",
+          "textAlignment": "center",
+          "characterSize": 32,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          }
+        },
+        "Pressed": {
+          "bottomMargin": 16,
+          "height": 69,
+          "leftMargin": 16,
+          "rightMargin": 16,
+          "texture": "assets\\RedButtonPressed.png",
+          "tiled": true,
+          "topMargin": 16,
+          "width": 192
+        }
+      }
+    },
+    {
+      "assetStoreId": "5faf2b0415c271fa6e747283ed36297a95f04d2b6c477a7b011775fa6fb444ee",
+      "name": "exit",
+      "tags": "",
+      "type": "PanelSpriteButton::PanelSpriteButton",
+      "variables": [
+        {
+          "name": "pos",
+          "type": "array",
+          "children": [
+            {
+              "folded": true,
+              "type": "number",
+              "value": 215
+            },
+            {
+              "folded": true,
+              "type": "number",
+              "value": 370
+            }
+          ]
+        }
+      ],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
+        }
+      ],
+      "content": {
+        "LeftPadding": 16,
+        "RightPadding": 16,
+        "PressedLabelOffsetY": 3,
+        "BottomPadding": 32,
+        "TopPadding": 32,
+        "HoveredFadeOutDuration": 0.25
+      },
+      "childrenContent": {
+        "Hovered": {
+          "bottomMargin": 16,
+          "height": 69,
+          "leftMargin": 16,
+          "rightMargin": 16,
+          "texture": "assets\\RedButtonHovered.png",
+          "tiled": true,
+          "topMargin": 16,
+          "width": 192
+        },
+        "Idle": {
+          "bottomMargin": 16,
+          "height": 69,
+          "leftMargin": 16,
+          "rightMargin": 16,
+          "texture": "assets\\RedButtonIdle.png",
+          "tiled": true,
+          "topMargin": 16,
+          "width": 192
+        },
+        "Label": {
+          "bold": true,
+          "italic": false,
+          "smoothed": true,
+          "underlined": false,
+          "string": "Exit Game",
+          "font": "fonts\\MontserratBold.otf",
+          "textAlignment": "center",
+          "characterSize": 32,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          }
+        },
+        "Pressed": {
+          "bottomMargin": 16,
+          "height": 69,
+          "leftMargin": 16,
+          "rightMargin": 16,
+          "texture": "assets\\RedButtonPressed.png",
+          "tiled": true,
+          "topMargin": 16,
+          "width": 192
+        }
+      }
+    },
+    {
+      "assetStoreId": "5faf2b0415c271fa6e747283ed36297a95f04d2b6c477a7b011775fa6fb444ee",
+      "name": "try_again",
+      "tags": "",
+      "type": "PanelSpriteButton::PanelSpriteButton",
+      "variables": [
+        {
+          "name": "pos",
+          "type": "array",
+          "children": [
+            {
+              "folded": true,
+              "type": "number",
+              "value": 215
+            },
+            {
+              "folded": true,
+              "type": "number",
+              "value": 370
+            }
+          ]
+        }
+      ],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
+        }
+      ],
+      "content": {
+        "LeftPadding": 16,
+        "RightPadding": 16,
+        "PressedLabelOffsetY": 3,
+        "BottomPadding": 32,
+        "TopPadding": 32,
+        "HoveredFadeOutDuration": 0.25
+      },
+      "childrenContent": {
+        "Hovered": {
+          "bottomMargin": 16,
+          "height": 69,
+          "leftMargin": 16,
+          "rightMargin": 16,
+          "texture": "assets\\RedButtonHovered.png",
+          "tiled": true,
+          "topMargin": 16,
+          "width": 192
+        },
+        "Idle": {
+          "bottomMargin": 16,
+          "height": 69,
+          "leftMargin": 16,
+          "rightMargin": 16,
+          "texture": "assets\\RedButtonIdle.png",
+          "tiled": true,
+          "topMargin": 16,
+          "width": 192
+        },
+        "Label": {
+          "bold": true,
+          "italic": false,
+          "smoothed": true,
+          "underlined": false,
+          "string": "Try One More Time",
+          "font": "fonts\\MontserratBold.otf",
+          "textAlignment": "center",
+          "characterSize": 32,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          }
+        },
+        "Pressed": {
+          "bottomMargin": 16,
+          "height": 69,
+          "leftMargin": 16,
+          "rightMargin": 16,
+          "texture": "assets\\RedButtonPressed.png",
+          "tiled": true,
+          "topMargin": 16,
+          "width": 192
+        }
+      }
+    },
+    {
+      "assetStoreId": "5faf2b0415c271fa6e747283ed36297a95f04d2b6c477a7b011775fa6fb444ee",
+      "name": "quit_game",
+      "tags": "",
+      "type": "PanelSpriteButton::PanelSpriteButton",
+      "variables": [
+        {
+          "name": "pos",
+          "type": "array",
+          "children": [
+            {
+              "folded": true,
+              "type": "number",
+              "value": 215
+            },
+            {
+              "folded": true,
+              "type": "number",
+              "value": 370
+            }
+          ]
+        }
+      ],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
+        }
+      ],
+      "content": {
+        "LeftPadding": 16,
+        "RightPadding": 16,
+        "PressedLabelOffsetY": 3,
+        "BottomPadding": 32,
+        "TopPadding": 32,
+        "HoveredFadeOutDuration": 0.25
+      },
+      "childrenContent": {
+        "Hovered": {
+          "bottomMargin": 16,
+          "height": 69,
+          "leftMargin": 16,
+          "rightMargin": 16,
+          "texture": "assets\\RedButtonHovered.png",
+          "tiled": true,
+          "topMargin": 16,
+          "width": 192
+        },
+        "Idle": {
+          "bottomMargin": 16,
+          "height": 69,
+          "leftMargin": 16,
+          "rightMargin": 16,
+          "texture": "assets\\RedButtonIdle.png",
+          "tiled": true,
+          "topMargin": 16,
+          "width": 192
+        },
+        "Label": {
+          "bold": true,
+          "italic": false,
+          "smoothed": true,
+          "underlined": false,
+          "string": "< Quit to Main Menu",
+          "font": "fonts\\MontserratBold.otf",
+          "textAlignment": "center",
+          "characterSize": 32,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          }
+        },
+        "Pressed": {
+          "bottomMargin": 16,
+          "height": 69,
+          "leftMargin": 16,
+          "rightMargin": 16,
+          "texture": "assets\\RedButtonPressed.png",
+          "tiled": true,
+          "topMargin": 16,
+          "width": 192
+        }
+      }
+    },
+    {
+      "assetStoreId": "",
+      "bold": true,
+      "italic": false,
+      "name": "level_complete",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
+        }
+      ],
+      "string": "LEVEL COMPLETE!",
+      "font": "fonts\\MontserratBold.otf",
+      "textAlignment": "center",
+      "characterSize": 65,
+      "color": {
+        "b": 255,
+        "g": 255,
+        "r": 255
+      }
+    },
+    {
+      "assetStoreId": "",
+      "bold": true,
+      "italic": false,
+      "name": "time_out",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
+        }
+      ],
+      "string": "TIME'S UP! YOU LOSE",
+      "font": "fonts\\MontserratBold.otf",
+      "textAlignment": "left",
+      "characterSize": 65,
+      "color": {
+        "b": 255,
+        "g": 255,
+        "r": 255
+      }
+    },
+    {
+      "assetStoreId": "",
+      "bold": true,
+      "italic": false,
+      "name": "player_total_score",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
+        }
+      ],
+      "string": "Your Total Score\n1000000",
+      "font": "fonts\\MontserratRegular.otf",
+      "textAlignment": "center",
+      "characterSize": 40,
+      "color": {
+        "b": 255,
+        "g": 255,
+        "r": 255
+      }
+    },
+    {
+      "assetStoreId": "",
+      "bold": true,
+      "italic": false,
+      "name": "game_time",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
+        }
+      ],
+      "string": "Your Time: 14:07",
+      "font": "fonts\\MontserratRegular.otf",
+      "textAlignment": "center",
+      "characterSize": 40,
+      "color": {
+        "b": 255,
+        "g": 255,
+        "r": 255
+      }
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "controls",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
+        }
+      ],
+      "string": "Use the Arrow keys\nto Move",
+      "font": "fonts\\MontserratRegular.otf",
+      "textAlignment": "center",
+      "characterSize": 18,
+      "color": {
+        "b": 255,
+        "g": 255,
+        "r": 255
+      }
+    },
+    {
       "assetStoreId": "",
       "bold": true,
       "italic": false,
@@ -1222,6 +2118,62 @@
         }
       ],
       "string": "Levels                                                                                                Color                            Shape",
+      "font": "",
+      "textAlignment": "left",
+      "characterSize": 20,
+      "color": {
+        "b": 255,
+        "g": 255,
+        "r": 255
+      }
+    },
+    {
+      "assetStoreId": "",
+      "bold": true,
+      "italic": false,
+      "name": "debugtext_x",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Draggable",
+          "type": "DraggableBehavior::Draggable",
+          "checkCollisionMask": true
+        }
+      ],
+      "string": "x",
+      "font": "",
+      "textAlignment": "left",
+      "characterSize": 20,
+      "color": {
+        "b": 255,
+        "g": 255,
+        "r": 255
+      }
+    },
+    {
+      "assetStoreId": "",
+      "bold": true,
+      "italic": false,
+      "name": "debugtext_y",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Draggable",
+          "type": "DraggableBehavior::Draggable",
+          "checkCollisionMask": true
+        }
+      ],
+      "string": "y",
       "font": "",
       "textAlignment": "left",
       "characterSize": 20,
@@ -2084,6 +3036,77 @@
         "outlineOpacity": 128,
         "outlineSize": 1
       }
+    },
+    {
+      "assetStoreId": "",
+      "name": "start_position",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Draggable",
+          "type": "DraggableBehavior::Draggable",
+          "checkCollisionMask": true
+        }
+      ],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\GreenSliderThumb.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "height": 128,
+      "name": "level_bg",
+      "tags": "",
+      "texture": "assets\\moving_bg.jpg",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 128,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    },
+    {
+      "assetStoreId": "",
+      "height": 128,
+      "name": "white_border",
+      "tags": "",
+      "texture": "assets\\white_border.jpg",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 128,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
     }
   ],
   "events": [
@@ -2092,28 +3115,7 @@
       "include": {
         "includeConfig": 0
       },
-      "target": "player_shape"
-    },
-    {
-      "type": "BuiltinCommonInstructions::Link",
-      "include": {
-        "includeConfig": 0
-      },
-      "target": "player_shifter"
-    },
-    {
-      "type": "BuiltinCommonInstructions::Link",
-      "include": {
-        "includeConfig": 0
-      },
-      "target": "player_controls"
-    },
-    {
-      "type": "BuiltinCommonInstructions::Link",
-      "include": {
-        "includeConfig": 0
-      },
-      "target": "level_shifter"
+      "target": "level_actions"
     },
     {
       "type": "BuiltinCommonInstructions::Link",
@@ -2127,14 +3129,49 @@
       "include": {
         "includeConfig": 0
       },
-      "target": "level_actions"
+      "target": "levels_system"
     },
     {
       "type": "BuiltinCommonInstructions::Link",
       "include": {
         "includeConfig": 0
       },
-      "target": "media_actions"
+      "target": "player_transform"
+    },
+    {
+      "type": "BuiltinCommonInstructions::Link",
+      "include": {
+        "includeConfig": 0
+      },
+      "target": "player_collision"
+    },
+    {
+      "type": "BuiltinCommonInstructions::Link",
+      "include": {
+        "includeConfig": 0
+      },
+      "target": "player_controls"
+    },
+    {
+      "type": "BuiltinCommonInstructions::Link",
+      "include": {
+        "includeConfig": 0
+      },
+      "target": "finish_each_level"
+    },
+    {
+      "type": "BuiltinCommonInstructions::Link",
+      "include": {
+        "includeConfig": 0
+      },
+      "target": "moving_background"
+    },
+    {
+      "type": "BuiltinCommonInstructions::Link",
+      "include": {
+        "includeConfig": 0
+      },
+      "target": "level_buttons"
     }
   ],
   "layers": [

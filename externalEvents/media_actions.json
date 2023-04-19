@@ -1,5 +1,5 @@
 {
-  "associatedLayout": "levels",
+  "associatedLayout": "main",
   "lastChangeTimeStamp": 0,
   "name": "media_actions",
   "events": [
@@ -18,26 +18,29 @@
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [],
-      "actions": []
-    },
-    {
-      "type": "BuiltinCommonInstructions::Comment",
-      "color": {
-        "b": 109,
-        "g": 230,
-        "r": 255,
-        "textB": 0,
-        "textG": 0,
-        "textR": 0
-      },
-      "comment": "SOUNDS",
-      "comment2": ""
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [],
-      "actions": []
+      "conditions": [
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "PlayMusicCanal"
+          },
+          "parameters": [
+            "",
+            "music\\OptimisticLoneliness.mp3",
+            "100",
+            "yes",
+            "",
+            ""
+          ]
+        }
+      ]
     }
   ]
 }

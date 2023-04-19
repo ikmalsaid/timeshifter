@@ -1,5 +1,5 @@
 {
-  "firstLayout": "",
+  "firstLayout": "main",
   "gdVersion": {
     "build": 99,
     "major": 4,
@@ -18,14 +18,14 @@
     "templateSlug": "",
     "useExternalSourceFiles": false,
     "version": "1.0.0",
-    "name": "TIME SHIFTER",
-    "description": "The perfect way to kill some time while challenging your mind and reflexes.",
+    "name": "TIMESHIFTER",
+    "description": "The best way to kill time and test your reflexes.",
     "author": "Ikmal Said",
     "windowWidth": 1056,
     "windowHeight": 864,
     "latestCompilationDirectory": "",
     "maxFPS": 60,
-    "minFPS": 20,
+    "minFPS": 60,
     "verticalSync": false,
     "platformSpecificAssets": {},
     "loadingScreen": {
@@ -46,7 +46,7 @@
     },
     "watermark": {
       "placement": "bottom-left",
-      "showWatermark": true
+      "showWatermark": false
     },
     "authorIds": [
       "6KhTpftJxca4kbgWFu11sytmVHo2"
@@ -54,8 +54,13 @@
     "authorUsernames": [
       "ikmalsaid"
     ],
-    "categories": [],
-    "playableDevices": [],
+    "categories": [
+      "puzzle",
+      "jam"
+    ],
+    "playableDevices": [
+      "keyboard"
+    ],
     "extensionProperties": [],
     "platforms": [
       {
@@ -404,6 +409,74 @@
         "metadata": "",
         "name": "levels\\level13.json",
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/moving_bg.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\moving_bg.jpg",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/white_border.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\white_border.jpg",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "music/OptimisticLoneliness.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "music\\OptimisticLoneliness.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "sound/button.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "sound\\button.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "sound/reject.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "sound\\reject.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "sound/color.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "sound\\color.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "sound/shape.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "sound\\shape.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -498,60 +571,190 @@
         "animationSpeedScale": 1,
         "animationFps": 0
       }
+    },
+    {
+      "assetStoreId": "5faf2b0415c271fa6e747283ed36297a95f04d2b6c477a7b011775fa6fb444ee",
+      "name": "red_button",
+      "tags": "",
+      "type": "PanelSpriteButton::PanelSpriteButton",
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
+        }
+      ],
+      "content": {
+        "LeftPadding": 16,
+        "RightPadding": 16,
+        "PressedLabelOffsetY": 3,
+        "BottomPadding": 32,
+        "TopPadding": 32,
+        "HoveredFadeOutDuration": 0.25
+      },
+      "childrenContent": {
+        "Hovered": {
+          "bottomMargin": 16,
+          "height": 69,
+          "leftMargin": 16,
+          "rightMargin": 16,
+          "texture": "assets\\RedButtonHovered.png",
+          "tiled": true,
+          "topMargin": 16,
+          "width": 192
+        },
+        "Idle": {
+          "bottomMargin": 16,
+          "height": 69,
+          "leftMargin": 16,
+          "rightMargin": 16,
+          "texture": "assets\\RedButtonIdle.png",
+          "tiled": true,
+          "topMargin": 16,
+          "width": 192
+        },
+        "Label": {
+          "bold": true,
+          "italic": false,
+          "smoothed": true,
+          "underlined": false,
+          "string": "red",
+          "font": "fonts\\MontserratBold.otf",
+          "textAlignment": "center",
+          "characterSize": 32,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          }
+        },
+        "Pressed": {
+          "bottomMargin": 16,
+          "height": 69,
+          "leftMargin": 16,
+          "rightMargin": 16,
+          "texture": "assets\\RedButtonPressed.png",
+          "tiled": true,
+          "topMargin": 16,
+          "width": 192
+        }
+      }
+    },
+    {
+      "assetStoreId": "569b45d3c7c34f7706563239938d04ca599016ff9857ee38c945c72330d4339e",
+      "name": "green_button",
+      "tags": "",
+      "type": "PanelSpriteButton::PanelSpriteButton",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "LeftPadding": 16,
+        "RightPadding": 16,
+        "PressedLabelOffsetY": 3,
+        "BottomPadding": 32,
+        "TopPadding": 32,
+        "HoveredFadeOutDuration": 0.25
+      },
+      "childrenContent": {
+        "Hovered": {
+          "bottomMargin": 16,
+          "height": 69,
+          "leftMargin": 16,
+          "rightMargin": 16,
+          "texture": "assets\\GreenButtonHovered.png",
+          "tiled": true,
+          "topMargin": 16,
+          "width": 192
+        },
+        "Idle": {
+          "bottomMargin": 16,
+          "height": 69,
+          "leftMargin": 16,
+          "rightMargin": 16,
+          "texture": "assets\\GreenButtonIdle.png",
+          "tiled": true,
+          "topMargin": 16,
+          "width": 192
+        },
+        "Label": {
+          "bold": false,
+          "italic": false,
+          "smoothed": true,
+          "underlined": false,
+          "string": "green",
+          "font": "fonts\\MontserratBold.otf",
+          "textAlignment": "center",
+          "characterSize": 32,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          }
+        },
+        "Pressed": {
+          "bottomMargin": 16,
+          "height": 69,
+          "leftMargin": 16,
+          "rightMargin": 16,
+          "texture": "assets\\GreenButtonPressed.png",
+          "tiled": true,
+          "topMargin": 16,
+          "width": 192
+        }
+      }
+    },
+    {
+      "assetStoreId": "",
+      "height": 128,
+      "name": "moving_bg",
+      "tags": "",
+      "texture": "assets\\moving_bg.jpg",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 128,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
     }
   ],
   "objectsGroups": [],
   "variables": [
     {
-      "name": "top_scorers",
-      "type": "array",
-      "children": [
-        {
-          "folded": true,
-          "type": "string",
-          "value": "ikmalsaid"
-        },
-        {
-          "type": "number",
-          "value": 19201
-        },
-        {
-          "folded": true,
-          "type": "string",
-          "value": "alisa_tt8"
-        },
-        {
-          "type": "number",
-          "value": 18700
-        },
-        {
-          "type": "string",
-          "value": "hertonnye"
-        },
-        {
-          "folded": true,
-          "type": "number",
-          "value": 17500
-        },
-        {
-          "folded": true,
-          "type": "string",
-          "value": "tong_ke_xin"
-        },
-        {
-          "folded": true,
-          "type": "number",
-          "value": 16900
-        },
-        {
-          "type": "string",
-          "value": "sudirman6969"
-        },
-        {
-          "type": "number",
-          "value": 16500
-        }
-      ]
+      "folded": true,
+      "name": "current_level",
+      "type": "number",
+      "value": 1
+    },
+    {
+      "folded": true,
+      "name": "current_time",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "folded": true,
+      "name": "level_complete",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "folded": true,
+      "name": "offset_x",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "folded": true,
+      "name": "offset_y",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "folded": true,
+      "name": "random",
+      "type": "number",
+      "value": 0
     }
   ],
   "layouts": [
@@ -591,15 +794,15 @@
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/externalEvents/player_shifter"
+      "referenceTo": "/externalEvents/player_collision"
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/externalEvents/player_shape"
+      "referenceTo": "/externalEvents/player_transform"
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/externalEvents/level_shifter"
+      "referenceTo": "/externalEvents/levels_system"
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
@@ -616,9 +819,25 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/externalEvents/media_actions"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalEvents/finish_each_level"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalEvents/moving_background"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalEvents/level_buttons"
     }
   ],
   "eventsFunctionsExtensions": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/timeformatter"
+    },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/eventsFunctionsExtensions/panelspriteslider"

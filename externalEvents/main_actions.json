@@ -94,28 +94,6 @@
             "value": "Tween::AddObjectPositionXTween"
           },
           "parameters": [
-            "scores",
-            "Tween",
-            "\"slide_in\"",
-            "215",
-            "\"linear\"",
-            "500",
-            "500"
-          ]
-        },
-        {
-          "type": {
-            "value": "Wait"
-          },
-          "parameters": [
-            "0.5"
-          ]
-        },
-        {
-          "type": {
-            "value": "Tween::AddObjectPositionXTween"
-          },
-          "parameters": [
             "credits",
             "Tween",
             "\"slide_in\"",
@@ -171,6 +149,19 @@
       "actions": [
         {
           "type": {
+            "value": "PlaySoundCanal"
+          },
+          "parameters": [
+            "",
+            "sound\\button.mp3",
+            "100",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
             "value": "FlashTransitionPainter::FlashTransitionPainter::PaintEffect"
           },
           "parameters": [
@@ -205,6 +196,104 @@
       ]
     },
     {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
+          },
+          "parameters": [
+            "credits",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "PlaySoundCanal"
+          },
+          "parameters": [
+            "",
+            "sound\\button.mp3",
+            "100",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "FlashTransitionPainter::FlashTransitionPainter::PaintEffect"
+          },
+          "parameters": [
+            "transition",
+            "FlashTransitionPainter",
+            "\"0;0;0\"",
+            "0.5",
+            "\"Vertical\"",
+            "\"Forward\"",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Wait"
+          },
+          "parameters": [
+            "0.5"
+          ]
+        },
+        {
+          "type": {
+            "value": "Scene"
+          },
+          "parameters": [
+            "",
+            "\"credits\"",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "disabled": true,
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": [
+        {
+          "type": {
+            "value": "Tween::AddObjectPositionXTween"
+          },
+          "parameters": [
+            "scores",
+            "Tween",
+            "\"slide_in\"",
+            "215",
+            "\"linear\"",
+            "500",
+            "500"
+          ]
+        },
+        {
+          "type": {
+            "value": "Wait"
+          },
+          "parameters": [
+            "0.5"
+          ]
+        }
+      ]
+    },
+    {
+      "disabled": true,
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
         {
@@ -260,61 +349,7 @@
       ]
     },
     {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
-          },
-          "parameters": [
-            "credits",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "BuiltinCommonInstructions::Once"
-          },
-          "parameters": []
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "FlashTransitionPainter::FlashTransitionPainter::PaintEffect"
-          },
-          "parameters": [
-            "transition",
-            "FlashTransitionPainter",
-            "\"0;0;0\"",
-            "0.5",
-            "\"Vertical\"",
-            "\"Forward\"",
-            "",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "Wait"
-          },
-          "parameters": [
-            "0.5"
-          ]
-        },
-        {
-          "type": {
-            "value": "Scene"
-          },
-          "parameters": [
-            "",
-            "\"credits\"",
-            ""
-          ]
-        }
-      ]
-    },
-    {
+      "disabled": true,
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
         {

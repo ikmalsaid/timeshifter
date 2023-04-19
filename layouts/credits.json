@@ -5,7 +5,7 @@
   "name": "credits",
   "r": 50,
   "standardSortMethod": true,
-  "stopSoundsOnStartup": true,
+  "stopSoundsOnStartup": false,
   "title": "",
   "v": 50,
   "uiSettings": {
@@ -24,36 +24,6 @@
   "objectsGroups": [],
   "variables": [],
   "instances": [
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 864,
-      "layer": "",
-      "name": "title_bg",
-      "persistentUuid": "1392aab9-617c-47c0-9ae8-b13e36c364b9",
-      "width": 1056,
-      "x": 0,
-      "y": 0,
-      "zOrder": 1,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 864,
-      "layer": "",
-      "name": "title_fg",
-      "persistentUuid": "a6ccdb80-5988-4465-a7fa-d67c8c765f5d",
-      "width": 1056,
-      "x": 0,
-      "y": 0,
-      "zOrder": 4,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
     {
       "angle": 0,
       "customSize": true,
@@ -113,6 +83,21 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 924,
+      "layer": "",
+      "name": "moving_bg",
+      "persistentUuid": "e2b9b322-a286-42b2-b662-086dcfa58421",
+      "width": 1115,
+      "x": -24,
+      "y": -27,
+      "zOrder": 0,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "objects": [
@@ -146,7 +131,7 @@
         }
       ],
       "content": {
-        "text": "TIMESHIFTER\nGame Version 0.0.1\nEngine Build 160\n\nMade by Ikmal Said\nfor the Gamedev.js Jam 2023\n\nThank you for your support!",
+        "text": "TIMESHIFTER\nGame Version 1.0.0\nEngine Build 160\n\nMade by Ikmal Said\nfor the Gamedev.js Jam 2023\n\nThank you for your support!",
         "opacity": 255,
         "fontSize": 48,
         "visible": true,
@@ -170,11 +155,11 @@
         }
       ],
       "content": {
-        "text": "TIMESHIFTER\nGame Version 0.0.1\nEngine Build 160\n\nMade by Ikmal Said\nfor the Gamedev.js Jam 2023\n\nThank you for your support!",
+        "text": "TIMESHIFTER\nGame Version 1.0.0\nEngine Build 160\n\nMade by Ikmal Said\nfor the Gamedev.js Jam 2023\n\nThank you for your support!",
         "opacity": 255,
         "fontSize": 48,
         "visible": true,
-        "color": "255;0;0",
+        "color": "255;255;255",
         "fontFamily": "fonts\\MontserratBold.otf",
         "align": "center",
         "wordWrap": false
@@ -295,6 +280,13 @@
         "includeConfig": 0
       },
       "target": "credits_actions"
+    },
+    {
+      "type": "BuiltinCommonInstructions::Link",
+      "include": {
+        "includeConfig": 0
+      },
+      "target": "moving_background"
     }
   ],
   "layers": [

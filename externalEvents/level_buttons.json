@@ -1,105 +1,17 @@
 {
-  "associatedLayout": "guide",
+  "associatedLayout": "levels",
   "lastChangeTimeStamp": 0,
-  "name": "guide_actions",
+  "name": "level_buttons",
   "events": [
     {
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
         {
           "type": {
-            "value": "DepartScene"
+            "value": "PanelSpriteButton::PanelSpriteButton::IsPressed"
           },
           "parameters": [
-            ""
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "FlashTransitionPainter::FlashTransitionPainter::PaintEffect"
-          },
-          "parameters": [
-            "transition",
-            "FlashTransitionPainter",
-            "\"0;0;0\"",
-            "0.5",
-            "\"Flash\"",
-            "\"Backward\"",
-            "",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "Wait"
-          },
-          "parameters": [
-            "0.5"
-          ]
-        },
-        {
-          "type": {
-            "value": "Tween::AddObjectPositionXTween"
-          },
-          "parameters": [
-            "guide_text",
-            "Tween",
-            "\"slide_in\"",
-            "31",
-            "\"linear\"",
-            "750",
-            "500"
-          ]
-        },
-        {
-          "type": {
-            "value": "Tween::AddObjectPositionXTween"
-          },
-          "parameters": [
-            "guide_text2",
-            "Tween",
-            "\"slide_in\"",
-            "31",
-            "\"linear\"",
-            "750",
-            "500"
-          ]
-        },
-        {
-          "type": {
-            "value": "Wait"
-          },
-          "parameters": [
-            "0.6"
-          ]
-        },
-        {
-          "type": {
-            "value": "Tween::AddObjectPositionYTween"
-          },
-          "parameters": [
-            "continue",
-            "Tween",
-            "\"slide_in\"",
-            "750",
-            "\"linear\"",
-            "500",
-            "500"
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
-          },
-          "parameters": [
-            "continue",
+            "reset",
             ""
           ]
         },
@@ -126,6 +38,22 @@
         },
         {
           "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "game_time"
+          ]
+        },
+        {
+          "type": {
+            "value": "Wait"
+          },
+          "parameters": [
+            ".1"
+          ]
+        },
+        {
+          "type": {
             "value": "FlashTransitionPainter::FlashTransitionPainter::PaintEffect"
           },
           "parameters": [
@@ -144,7 +72,7 @@
             "value": "Wait"
           },
           "parameters": [
-            "0.5"
+            ".5"
           ]
         },
         {
@@ -154,6 +82,100 @@
           "parameters": [
             "",
             "\"levels\"",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "PanelSpriteButton::PanelSpriteButton::IsPressed"
+          },
+          "parameters": [
+            "exit",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "PlaySoundCanal"
+          },
+          "parameters": [
+            "",
+            "sound\\button.mp3",
+            "100",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "game_time"
+          ]
+        },
+        {
+          "type": {
+            "value": "ModVarGlobal"
+          },
+          "parameters": [
+            "current_level",
+            "=",
+            "1"
+          ]
+        },
+        {
+          "type": {
+            "value": "Wait"
+          },
+          "parameters": [
+            ".1"
+          ]
+        },
+        {
+          "type": {
+            "value": "FlashTransitionPainter::FlashTransitionPainter::PaintEffect"
+          },
+          "parameters": [
+            "transition",
+            "FlashTransitionPainter",
+            "\"0;0;0\"",
+            "0.5",
+            "\"Circular\"",
+            "\"Forward\"",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Wait"
+          },
+          "parameters": [
+            ".5"
+          ]
+        },
+        {
+          "type": {
+            "value": "Scene"
+          },
+          "parameters": [
+            "",
+            "\"main\"",
             ""
           ]
         }

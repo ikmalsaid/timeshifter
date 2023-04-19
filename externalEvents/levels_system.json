@@ -1,7 +1,7 @@
 {
   "associatedLayout": "levels",
   "lastChangeTimeStamp": 0,
-  "name": "level_shifter",
+  "name": "levels_system",
   "events": [
     {
       "type": "BuiltinCommonInstructions::Standard",

@@ -1,7 +1,7 @@
 {
   "associatedLayout": "levels",
   "lastChangeTimeStamp": 0,
-  "name": "player_shifter",
+  "name": "player_transform",
   "events": [
     {
       "type": "BuiltinCommonInstructions::Comment",
@@ -13,7 +13,7 @@
         "textG": 0,
         "textR": 0
       },
-      "comment": "WALLS",
+      "comment": "CIRCLE",
       "comment2": ""
     },
     {
@@ -21,227 +21,6 @@
       "conditions": [
         {
           "type": {
-            "value": "CollisionNP"
-          },
-          "parameters": [
-            "player",
-            "level_wall",
-            "",
-            "",
-            ""
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "SeparateFromObjects"
-          },
-          "parameters": [
-            "player",
-            "level_wall",
-            ""
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Comment",
-      "color": {
-        "b": 109,
-        "g": 230,
-        "r": 255,
-        "textB": 0,
-        "textG": 0,
-        "textR": 0
-      },
-      "comment": "STARS",
-      "comment2": ""
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "CollisionNP"
-          },
-          "parameters": [
-            "player",
-            "level_star",
-            "",
-            "",
-            ""
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "ModVarGlobal"
-          },
-          "parameters": [
-            "level_complete",
-            "=",
-            "1"
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Comment",
-      "color": {
-        "b": 109,
-        "g": 230,
-        "r": 255,
-        "textB": 0,
-        "textG": 0,
-        "textR": 0
-      },
-      "comment": "REJECT COLORS",
-      "comment2": ""
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "inverted": true,
-            "value": "VarObjet"
-          },
-          "parameters": [
-            "player",
-            "current_color",
-            "=",
-            "1"
-          ]
-        },
-        {
-          "type": {
-            "value": "CollisionNP"
-          },
-          "parameters": [
-            "player",
-            "red_doors",
-            "",
-            "",
-            ""
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "SeparateFromObjects"
-          },
-          "parameters": [
-            "player",
-            "red_doors",
-            ""
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "inverted": true,
-            "value": "VarObjet"
-          },
-          "parameters": [
-            "player",
-            "current_color",
-            "=",
-            "2"
-          ]
-        },
-        {
-          "type": {
-            "value": "CollisionNP"
-          },
-          "parameters": [
-            "player",
-            "green_doors",
-            "",
-            "",
-            ""
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "SeparateFromObjects"
-          },
-          "parameters": [
-            "player",
-            "green_doors",
-            ""
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "inverted": true,
-            "value": "VarObjet"
-          },
-          "parameters": [
-            "player",
-            "current_color",
-            "=",
-            "3"
-          ]
-        },
-        {
-          "type": {
-            "value": "CollisionNP"
-          },
-          "parameters": [
-            "player",
-            "blue_doors",
-            "",
-            "",
-            ""
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "SeparateFromObjects"
-          },
-          "parameters": [
-            "player",
-            "blue_doors",
-            ""
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Comment",
-      "color": {
-        "b": 109,
-        "g": 230,
-        "r": 255,
-        "textB": 0,
-        "textG": 0,
-        "textR": 0
-      },
-      "comment": "REJECT SHAPES",
-      "comment2": ""
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "inverted": true,
             "value": "VarObjet"
           },
           "parameters": [
@@ -253,26 +32,24 @@
         },
         {
           "type": {
-            "value": "CollisionNP"
+            "value": "VarObjet"
           },
           "parameters": [
             "player",
-            "circle_doors",
-            "",
-            "",
-            ""
+            "current_color",
+            "=",
+            "1"
           ]
         }
       ],
       "actions": [
         {
           "type": {
-            "value": "SeparateFromObjects"
+            "value": "SetAnimationName"
           },
           "parameters": [
             "player",
-            "circle_doors",
-            ""
+            "\"rc\""
           ]
         }
       ]
@@ -282,7 +59,95 @@
       "conditions": [
         {
           "type": {
-            "inverted": true,
+            "value": "VarObjet"
+          },
+          "parameters": [
+            "player",
+            "current_shape",
+            "=",
+            "1"
+          ]
+        },
+        {
+          "type": {
+            "value": "VarObjet"
+          },
+          "parameters": [
+            "player",
+            "current_color",
+            "=",
+            "2"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "SetAnimationName"
+          },
+          "parameters": [
+            "player",
+            "\"gc\""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "VarObjet"
+          },
+          "parameters": [
+            "player",
+            "current_shape",
+            "=",
+            "1"
+          ]
+        },
+        {
+          "type": {
+            "value": "VarObjet"
+          },
+          "parameters": [
+            "player",
+            "current_color",
+            "=",
+            "3"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "SetAnimationName"
+          },
+          "parameters": [
+            "player",
+            "\"bc\""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Comment",
+      "color": {
+        "b": 109,
+        "g": 230,
+        "r": 255,
+        "textB": 0,
+        "textG": 0,
+        "textR": 0
+      },
+      "comment": "SQUARE",
+      "comment2": ""
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
             "value": "VarObjet"
           },
           "parameters": [
@@ -294,26 +159,24 @@
         },
         {
           "type": {
-            "value": "CollisionNP"
+            "value": "VarObjet"
           },
           "parameters": [
             "player",
-            "square_doors",
-            "",
-            "",
-            ""
+            "current_color",
+            "=",
+            "1"
           ]
         }
       ],
       "actions": [
         {
           "type": {
-            "value": "SeparateFromObjects"
+            "value": "SetAnimationName"
           },
           "parameters": [
             "player",
-            "square_doors",
-            ""
+            "\"rs\""
           ]
         }
       ]
@@ -323,7 +186,95 @@
       "conditions": [
         {
           "type": {
-            "inverted": true,
+            "value": "VarObjet"
+          },
+          "parameters": [
+            "player",
+            "current_shape",
+            "=",
+            "2"
+          ]
+        },
+        {
+          "type": {
+            "value": "VarObjet"
+          },
+          "parameters": [
+            "player",
+            "current_color",
+            "=",
+            "2"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "SetAnimationName"
+          },
+          "parameters": [
+            "player",
+            "\"gs\""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "VarObjet"
+          },
+          "parameters": [
+            "player",
+            "current_shape",
+            "=",
+            "2"
+          ]
+        },
+        {
+          "type": {
+            "value": "VarObjet"
+          },
+          "parameters": [
+            "player",
+            "current_color",
+            "=",
+            "3"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "SetAnimationName"
+          },
+          "parameters": [
+            "player",
+            "\"bs\""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Comment",
+      "color": {
+        "b": 109,
+        "g": 230,
+        "r": 255,
+        "textB": 0,
+        "textG": 0,
+        "textR": 0
+      },
+      "comment": "TRIANGLE",
+      "comment2": ""
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
             "value": "VarObjet"
           },
           "parameters": [
@@ -335,63 +286,7 @@
         },
         {
           "type": {
-            "value": "CollisionNP"
-          },
-          "parameters": [
-            "player",
-            "triangle_doors",
-            "",
-            "",
-            ""
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "SeparateFromObjects"
-          },
-          "parameters": [
-            "player",
-            "triangle_doors",
-            ""
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Comment",
-      "color": {
-        "b": 109,
-        "g": 230,
-        "r": 255,
-        "textB": 0,
-        "textG": 0,
-        "textR": 0
-      },
-      "comment": "TRANSFORM COLORS",
-      "comment2": ""
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "CollisionNP"
-          },
-          "parameters": [
-            "player",
-            "change_to_red",
-            "",
-            "",
-            ""
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "ModVarObjet"
+            "value": "VarObjet"
           },
           "parameters": [
             "player",
@@ -400,6 +295,17 @@
             "1"
           ]
         }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "SetAnimationName"
+          },
+          "parameters": [
+            "player",
+            "\"rt\""
+          ]
+        }
       ]
     },
     {
@@ -407,21 +313,18 @@
       "conditions": [
         {
           "type": {
-            "value": "CollisionNP"
+            "value": "VarObjet"
           },
           "parameters": [
             "player",
-            "change_to_green",
-            "",
-            "",
-            ""
+            "current_shape",
+            "=",
+            "3"
           ]
-        }
-      ],
-      "actions": [
+        },
         {
           "type": {
-            "value": "ModVarObjet"
+            "value": "VarObjet"
           },
           "parameters": [
             "player",
@@ -430,6 +333,17 @@
             "2"
           ]
         }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "SetAnimationName"
+          },
+          "parameters": [
+            "player",
+            "\"gt\""
+          ]
+        }
       ]
     },
     {
@@ -437,21 +351,18 @@
       "conditions": [
         {
           "type": {
-            "value": "CollisionNP"
+            "value": "VarObjet"
           },
           "parameters": [
             "player",
-            "change_to_blue",
-            "",
-            "",
-            ""
+            "current_shape",
+            "=",
+            "3"
           ]
-        }
-      ],
-      "actions": [
+        },
         {
           "type": {
-            "value": "ModVarObjet"
+            "value": "VarObjet"
           },
           "parameters": [
             "player",
@@ -460,107 +371,15 @@
             "3"
           ]
         }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Comment",
-      "color": {
-        "b": 109,
-        "g": 230,
-        "r": 255,
-        "textB": 0,
-        "textG": 0,
-        "textR": 0
-      },
-      "comment": "TRANSFORM SHAPES",
-      "comment2": ""
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "CollisionNP"
-          },
-          "parameters": [
-            "player",
-            "change_to_circle",
-            "",
-            "",
-            ""
-          ]
-        }
       ],
       "actions": [
         {
           "type": {
-            "value": "ModVarObjet"
+            "value": "SetAnimationName"
           },
           "parameters": [
             "player",
-            "current_shape",
-            "=",
-            "1"
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "CollisionNP"
-          },
-          "parameters": [
-            "player",
-            "change_to_square",
-            "",
-            "",
-            ""
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "ModVarObjet"
-          },
-          "parameters": [
-            "player",
-            "current_shape",
-            "=",
-            "2"
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "CollisionNP"
-          },
-          "parameters": [
-            "player",
-            "change_to_triangle",
-            "",
-            "",
-            ""
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "ModVarObjet"
-          },
-          "parameters": [
-            "player",
-            "current_shape",
-            "=",
-            "3"
+            "\"bt\""
           ]
         }
       ]

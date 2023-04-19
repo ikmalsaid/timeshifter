@@ -4,15 +4,28 @@
   "name": "debug_sliders",
   "events": [
     {
+      "type": "BuiltinCommonInstructions::Comment",
+      "color": {
+        "b": 109,
+        "g": 230,
+        "r": 255,
+        "textB": 0,
+        "textG": 0,
+        "textR": 0
+      },
+      "comment": "Debug sliders for testing",
+      "comment2": ""
+    },
+    {
+      "disabled": true,
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [],
       "actions": [
         {
           "type": {
-            "value": "ModVarObjet"
+            "value": "ModVarGlobal"
           },
           "parameters": [
-            "collision",
             "current_level",
             "=",
             "RoundSlider3.Value()"
@@ -52,6 +65,33 @@
             "current_color",
             "=",
             "RoundSlider.Value()"
+          ]
+        }
+      ]
+    },
+    {
+      "disabled": true,
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": [
+        {
+          "type": {
+            "value": "TextObject::String"
+          },
+          "parameters": [
+            "debugtext_x",
+            "=",
+            "ToString(round(start_position.X()))"
+          ]
+        },
+        {
+          "type": {
+            "value": "TextObject::String"
+          },
+          "parameters": [
+            "debugtext_y",
+            "=",
+            "ToString(round(start_position.Y()))"
           ]
         }
       ]

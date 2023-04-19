@@ -83,7 +83,7 @@
             "back",
             "Tween",
             "\"slide_in\"",
-            "645",
+            "700",
             "\"linear\"",
             "500",
             "500"
@@ -111,6 +111,19 @@
         }
       ],
       "actions": [
+        {
+          "type": {
+            "value": "PlaySoundCanal"
+          },
+          "parameters": [
+            "",
+            "sound\\button.mp3",
+            "100",
+            "",
+            "",
+            ""
+          ]
+        },
         {
           "type": {
             "value": "FlashTransitionPainter::FlashTransitionPainter::PaintEffect"

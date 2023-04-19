@@ -1,0 +1,35 @@
+current_time > time_limit = try again
+current_time < time_limit = win
+current_score = (time_limit - current_time) * score_multiplier
+
+level_start
+293.415 - gc 21
+
+239.415 - rt 13
+
+347.415 - rc 11
+
+347.415 - bs 32
+
+346.311 - bc 31
+
+725.468 - rs 12
+
+510.625 - rc 11
+
+781.205 - gc 21
+
+726.573 - gs 22
+
+510.415 - bt 33
+
+726.469 - rc 11
+
+345.415 - bt 33
+
+510.207 - rt 13
+
+
+
+
+

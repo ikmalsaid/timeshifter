@@ -5,7 +5,7 @@
   "name": "guide",
   "r": 50,
   "standardSortMethod": true,
-  "stopSoundsOnStartup": true,
+  "stopSoundsOnStartup": false,
   "title": "",
   "v": 50,
   "uiSettings": {
@@ -18,7 +18,7 @@
     "gridColor": 0,
     "gridAlpha": 0.5,
     "snap": false,
-    "zoomFactor": 0.4335774304702394,
+    "zoomFactor": 0.30104611971824735,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -32,7 +32,7 @@
       "name": "continue",
       "persistentUuid": "d9bfe399-f0a9-49a5-96c4-11aa20691cd1",
       "width": 625,
-      "x": 215,
+      "x": 224,
       "y": 900,
       "zOrder": 2,
       "numberProperties": [],
@@ -41,14 +41,14 @@
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
+      "customSize": true,
+      "height": 618,
       "layer": "",
       "name": "guide_text",
       "persistentUuid": "3a19e5c4-9a4a-4417-917b-6b47d09b9a9d",
-      "width": 0,
-      "x": -700,
-      "y": 162,
+      "width": 992,
+      "x": -1200,
+      "y": 75,
       "zOrder": 2,
       "numberProperties": [],
       "stringProperties": [],
@@ -57,13 +57,13 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 444,
+      "height": 610,
       "layer": "",
       "name": "guide_text2",
       "persistentUuid": "b49417af-9fdf-4e7d-99d5-487a19398a69",
-      "width": 779,
+      "width": 993,
       "x": 1200,
-      "y": 162,
+      "y": 75,
       "zOrder": 3,
       "numberProperties": [],
       "stringProperties": [],
@@ -87,29 +87,14 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 864,
+      "height": 956,
       "layer": "",
-      "name": "title_bg",
-      "persistentUuid": "22a64f16-efbf-409d-a053-a583d4004cc9",
-      "width": 1056,
-      "x": 0,
-      "y": 0,
-      "zOrder": 1,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 864,
-      "layer": "",
-      "name": "title_fg",
-      "persistentUuid": "8db1c35d-d16d-4d76-99ef-cfcd674f1718",
-      "width": 1056,
-      "x": 0,
-      "y": 0,
-      "zOrder": 4,
+      "name": "moving_bg",
+      "persistentUuid": "1e5dcdda-c4b8-44d5-a771-e0c45d8dd469",
+      "width": 1134,
+      "x": -31,
+      "y": -43,
+      "zOrder": 0,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -146,7 +131,7 @@
         }
       ],
       "content": {
-        "text": "HOW TO PLAY\n\n\nHow to play text!",
+        "text": "How to Play?\n\nSolve each levels by changing your color \nand/or shapes into either\nred, green, blue, circle, square, triangle \nor any combination of them!\n\nTry to finish each level\nin the shortest time possible.\n\nGood luck to you!",
         "opacity": 255,
         "fontSize": 48,
         "visible": true,
@@ -170,11 +155,11 @@
         }
       ],
       "content": {
-        "text": "HOW TO PLAY\n\n\nHow to play text!",
+        "text": "How to Play?\n\nSolve each levels by changing your color \nand/or shapes into either\n[color=red]red[/color], [color=green]green[/color], [color=blue]blue[/color], circle, square, triangle \nor any combination of them!\n\nTry to finish each level\nin the shortest time possible.\n\nGood luck to you!",
         "opacity": 255,
         "fontSize": 48,
         "visible": true,
-        "color": "255;0;0",
+        "color": "255;255;255",
         "fontFamily": "fonts\\MontserratBold.otf",
         "align": "center",
         "wordWrap": false
@@ -248,6 +233,25 @@
           "width": 192
         }
       }
+    },
+    {
+      "assetStoreId": "",
+      "name": "NewBBText",
+      "tags": "",
+      "type": "BBText::BBText",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "text": "[b]bold[/b] [i]italic[/i] [size=15]smaller[/size] [font=times]times[/font] font\n[spacing=12]spaced out[/spacing]\n[outline=yellow]outlined[/outline] [color=red]DropShadow[/color] ",
+        "opacity": 255,
+        "fontSize": 20,
+        "visible": true,
+        "color": "0;0;0",
+        "fontFamily": "Arial",
+        "align": "left",
+        "wordWrap": true
+      }
     }
   ],
   "events": [
@@ -257,6 +261,13 @@
         "includeConfig": 0
       },
       "target": "guide_actions"
+    },
+    {
+      "type": "BuiltinCommonInstructions::Link",
+      "include": {
+        "includeConfig": 0
+      },
+      "target": "moving_background"
     }
   ],
   "layers": [

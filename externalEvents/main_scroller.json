@@ -28,7 +28,7 @@
           },
           "parameters": [
             "scroller_text",
-            "-100",
+            "-110",
             "0",
             "1"
           ]
@@ -46,7 +46,7 @@
           "parameters": [
             "scroller_text",
             "=",
-            "\"Welcome To TIMESHIFTER --- Made by Ikmal Said for the GameDev.js Jam 2023 --- Golden Medallist:  \" + GlobalVariableString(top_scorers[0]) + \" - \" + GlobalVariableString(top_scorers[1]) + \" --- Silver Medallist: \" +  GlobalVariableString(top_scorers[2]) + \" - \" + GlobalVariableString(top_scorers[3]) + \" --- Bronze Medallist: \" + GlobalVariableString(top_scorers[4]) + \" - \" + GlobalVariableString(top_scorers[5])"
+            "\"Welcome to [b]TIMESHIFTER[/b] --- Made by Ikmal Said for the [b]GameDev.js Jam 2023[/b] with the theme [b]'Time'[/b] --- Thank You for Your Support :)\""
           ]
         }
       ]

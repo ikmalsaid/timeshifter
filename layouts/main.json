@@ -5,7 +5,7 @@
   "name": "main",
   "r": 50,
   "standardSortMethod": true,
-  "stopSoundsOnStartup": true,
+  "stopSoundsOnStartup": false,
   "title": "",
   "v": 50,
   "uiSettings": {
@@ -18,7 +18,7 @@
     "gridColor": 0,
     "gridAlpha": 0.5,
     "snap": false,
-    "zoomFactor": 0.46331118245139985,
+    "zoomFactor": 0.6040838749988899,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -57,36 +57,6 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 864,
-      "layer": "",
-      "name": "title_bg",
-      "persistentUuid": "1392aab9-617c-47c0-9ae8-b13e36c364b9",
-      "width": 1056,
-      "x": 0,
-      "y": 0,
-      "zOrder": 1,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 864,
-      "layer": "",
-      "name": "title_fg",
-      "persistentUuid": "a6ccdb80-5988-4465-a7fa-d67c8c765f5d",
-      "width": 1056,
-      "x": 0,
-      "y": 0,
-      "zOrder": 4,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
       "height": 70,
       "layer": "",
       "name": "start",
@@ -107,9 +77,9 @@
       "name": "credits",
       "persistentUuid": "d9bfe399-f0a9-49a5-96c4-11aa20691cd1",
       "width": 625,
-      "x": -700,
-      "y": 559,
-      "zOrder": 2,
+      "x": 1200,
+      "y": 500,
+      "zOrder": 3,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -170,6 +140,21 @@
       "x": 1075,
       "y": 823,
       "zOrder": 11,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 939,
+      "layer": "",
+      "name": "moving_bg",
+      "persistentUuid": "e8ed2e80-f26b-4934-9a5d-cf8d6094ef3e",
+      "width": 1121,
+      "x": -17,
+      "y": -34,
+      "zOrder": 0,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -235,7 +220,7 @@
         "opacity": 255,
         "fontSize": 65,
         "visible": true,
-        "color": "208;2;27",
+        "color": "255;255;255",
         "fontFamily": "fonts\\MontserratBold.otf",
         "align": "center",
         "wordWrap": false
@@ -252,8 +237,8 @@
         {
           "name": "EllipseMovement",
           "type": "EllipseMovement::EllipseMovement",
-          "RadiusX": 8,
-          "RadiusY": 5,
+          "RadiusX": 4,
+          "RadiusY": 3,
           "LoopDuration": 2,
           "InitialTurningLeft": false,
           "InitialDirectionAngle": 0,
@@ -504,73 +489,16 @@
           "width": 192
         }
       }
-    },
-    {
-      "assetStoreId": "569b45d3c7c34f7706563239938d04ca599016ff9857ee38c945c72330d4339e",
-      "name": "green_button",
-      "tags": "",
-      "type": "PanelSpriteButton::PanelSpriteButton",
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "content": {
-        "LeftPadding": 16,
-        "RightPadding": 16,
-        "PressedLabelOffsetY": 3,
-        "BottomPadding": 32,
-        "TopPadding": 32,
-        "HoveredFadeOutDuration": 0.25
-      },
-      "childrenContent": {
-        "Hovered": {
-          "bottomMargin": 16,
-          "height": 69,
-          "leftMargin": 16,
-          "rightMargin": 16,
-          "texture": "assets\\GreenButtonHovered.png",
-          "tiled": true,
-          "topMargin": 16,
-          "width": 192
-        },
-        "Idle": {
-          "bottomMargin": 16,
-          "height": 69,
-          "leftMargin": 16,
-          "rightMargin": 16,
-          "texture": "assets\\GreenButtonIdle.png",
-          "tiled": true,
-          "topMargin": 16,
-          "width": 192
-        },
-        "Label": {
-          "bold": false,
-          "italic": false,
-          "smoothed": true,
-          "underlined": false,
-          "string": "High Scores",
-          "font": "fonts\\MontserratBold.otf",
-          "textAlignment": "center",
-          "characterSize": 32,
-          "color": {
-            "b": 255,
-            "g": 255,
-            "r": 255
-          }
-        },
-        "Pressed": {
-          "bottomMargin": 16,
-          "height": 69,
-          "leftMargin": 16,
-          "rightMargin": 16,
-          "texture": "assets\\GreenButtonPressed.png",
-          "tiled": true,
-          "topMargin": 16,
-          "width": 192
-        }
-      }
     }
   ],
   "events": [
+    {
+      "type": "BuiltinCommonInstructions::Link",
+      "include": {
+        "includeConfig": 0
+      },
+      "target": "media_actions"
+    },
     {
       "type": "BuiltinCommonInstructions::Link",
       "include": {
@@ -584,6 +512,13 @@
         "includeConfig": 0
       },
       "target": "main_scroller"
+    },
+    {
+      "type": "BuiltinCommonInstructions::Link",
+      "include": {
+        "includeConfig": 0
+      },
+      "target": "moving_background"
     }
   ],
   "layers": [
